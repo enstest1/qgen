@@ -1,35 +1,34 @@
-# GitHub + Railway setup (source prepared; remote repository created, with source push pending)
+# QGEN — GitHub and Railway handoff status
 
-## GitHub: create one NEW private repository, keep original projects untouched
+**GitHub:** https://github.com/enstest1/qgen (private, branch `main`). All application source, 256 demo SVGs, tests, documentation and technical integration questions are committed. Changes must be reviewed by pull request before any live mint.
 
-1. Open https://github.com/new, choose owner `enstest1`, name `qgen`, visibility **Private**, leave README/license/.gitignore unchecked (this package already includes these files).
-2. Use local Git in the root of this extracted package:
+**Railway:** https://qgen.up.railway.app/ — separately deployed **read-only Bun Function demo**, not the Node/SQLite source repository. It uses simulated Quantus block inputs and cannot sign, mint, or collect money. The existing Railway project is named `qgen`.
+
+## Developer review
+
+1. Invite the Qlyphs developer as a collaborator to the private GitHub repo, or share a code archive. Without permission, the repo links are not publicly readable.
+2. Start at `docs/DEVELOPER-MESSAGE.md`; then `docs/DEVELOPER-INTEGRATION-CONTRACT.md`, `docs/INTEGRATION-STATUS.md`, `src/wallet.mjs`, `src/verification.mjs`, and tests.
+3. Review and answer the supported origin approval, single-transaction creator fee, finalized receipt schema and fee/size rules. Nothing in this repository requests protocol changes by default.
+4. Keep signing and fees disabled until the test checklist in `docs/LAUNCH-GATES.md` is complete.
+
+## Development
 
 ```bash
-git init -b main
-git add .
-git commit -m "feat: QG1 generative Quark PFP studio — wallet integration handoff"
-git remote add origin git@github.com:enstest1/qgen.git
-git push -u origin main
+git clone https://github.com/enstest1/qgen.git
+cd qgen
+node --test
+node src/validate.mjs
+node src/server.mjs
 ```
 
-`git@...` requires SSH access. Alternatively use HTTPS remote `https://github.com/enstest1/qgen.git` with your normal GitHub credential manager (never paste a token into chat).
+Demo-only environment: `CHAIN_MODE=demo`, `MAINNET_MINT_ENABLED=false`, `ATOMIC_DEV_FEE_VERIFIED=false`. The local SQLite registry is only suitable for a single-instance demo and must be replaced/hardened for real public claims.
 
-Alternatively, from PowerShell in the unzipped source root, run `./scripts/publish-to-github.ps1` **only after** creating the new empty repository; it runs the local tests and attempts a non-force push using your normal Git credentials. It refuses existing Git repositories.
+## Continuous integration status
 
-3. Add the Qlyphs dev as a read-only collaborator for review or send a ZIP. If he needs to patch wallet integrations, grant explicit write permission or ask for a fork/PR.
-4. GitHub Actions runs tests on Node 22 and 24 and checks all 256 outputs. Check the green verify workflow before giving approval.
+`docs/verify-workflow-template.yml` contains the proposed GitHub Actions workflow for Node 22 and 24. **It is a template, not an active workflow.** The authenticated GitHub token currently lacks the `workflow` scope, and GitHub rejected placing it under `.github/workflows/`. Do not claim GitHub CI is green until a suitably authorized operator installs the template as `.github/workflows/verify.yml` and verifies the runs.
 
-## Railway: new GitHub-connected app (separate from the previous standalone Function preview)
+The full Node.js application can later be deployed as a separate GitHub-connected Railway service in the existing `qgen` project. The public `qgen.up.railway.app` Function demo can remain available during integration review.
 
-A Railway project `qgen` already exists. Add a new **GitHub repo service** in that project selecting `enstest1/qgen`, branch `main`, with production or staging as appropriate. Use the repo's `railway.toml`: `npm run validate && npm test`, then `npm start`, and `/api/health` health check.
+## Launch restriction
 
-Set `CHAIN_MODE=demo`, `MAINNET_MINT_ENABLED=false`, `ATOMIC_DEV_FEE_VERIFIED=false`. Never insert a private key. The app binds Railway `$PORT`. Demo registry writes to SQLite (ephemeral by default); for durable multiuser production claims, provision Postgres or a durable volume and verify backups/concurrency *before* opening mint.
-
-## Current standalone preview
-
-An independent Railway Function preview was created at https://qgen.up.railway.app/. It contains a reduced visual demo of the reactor and SVGs but is **not** the full source in this ZIP. Do not mistake the reduced Function for a GitHub-connected production deployment.
-
-## Before opening mint
-
-See `docs/LAUNCH-GATES.md`: origin allowlist, atomic creator payout, verified receipt, actual block manifest, permanent DB and controlled real-wallet test. A green CI build alone is not permission to enable production minting.
+Do not accept QTC or advertise a completed Quark mint until all required wallet, atomic creator fee, receipt, real finalized block-manifest, database, security and capped mainnet smoke tests pass. The 256 cap is a registry rule only and is not enforced by Quarks consensus.
