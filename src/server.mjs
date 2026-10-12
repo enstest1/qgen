@@ -17,6 +17,7 @@ const registry=new Registry(dbPath);
 const port=Number(env.PORT||3000);
 const host=env.HOST||'0.0.0.0';
 const devFeeUsd=Number(env.DEV_FEE_USD||3);
+const publicOrigin=env.PUBLIC_ORIGIN||'https://qgen.lol';
 const mintReady=false; // HARD STOP: Qlyphs public inscribe command has no atomic developer fee output.
 const blockCache=new Map();
 async function art(i){
@@ -46,7 +47,7 @@ export function makeServer(){const httpServer=http.createServer(async(req,res)=>
   const url=new URL(req.url,'http://localhost');const p=url.pathname;
   if(req.method==='GET'&&p==='/api/health')return send(res,200,{ok:true,mode:source.mode,mintReady:false,walletSigning:false});
   if(req.method==='GET'&&p==='/api/config'){
-   const s=await source.getStatus();return send(res,200,{name:'QGEN',version:'QG1',supply:256,mode:source.mode,chain:s,devFeeUsd,mintReady,activationBlock:218350,render:'onchain SVG only',wallet:'Qlyphs (integration pending)',knownBlocker:'Qlyphs inscribe command cannot atomically include the $3 creator fee. Paid minting is disabled.'});
+   const s=await source.getStatus();return send(res,200,{name:'QGEN',version:'QG1',publicOrigin,supply:256,mode:source.mode,chain:s,devFeeUsd,mintReady,activationBlock:218350,render:'onchain SVG only',wallet:'Qlyphs (integration pending)',knownBlocker:'Qlyphs inscribe command cannot atomically include the $3 creator fee. Paid minting is disabled.'});
   }
   if(req.method==='GET'&&p==='/api/gallery'){
    const page=Math.max(1,Math.min(16,Number(url.searchParams.get('page')||1)||1));
