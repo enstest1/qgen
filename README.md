@@ -6,7 +6,7 @@ A DMT-inspired collection of 256 deterministic, chain-derived geometric SVG mask
 
 **Branding:** QGEN is the public project, repository and website name. The immutable QG1 artwork derivation still uses `QUANT//GENESIS|QG1|` as its original domain-separation string. This is intentional: changing it would alter all 256 SVGs and their hashes. No mint has occurred.
 
-**GitHub repository:** https://github.com/enstest1/qgen (private).
+**GitHub repository:** https://github.com/enstest1/qgen (public).
 
 ## Live visual preview
 

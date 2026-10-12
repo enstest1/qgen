@@ -8,7 +8,7 @@
 - Persistent SQLite registry implemented for **single-instance simulated** exclusive claims, expiry, conflict and duplicate receipt prevention. NOT yet load-tested across replicas or production-hardened.
 - Wallet request schema encoded and tested for **existing** Qlyphs `inscribe` command; mainnet signing intentionally hard-disabled.
 - Separate Railway visual preview deployed and external `/api/health` returned HTTP 200. Live endpoint: https://qgen.up.railway.app/
-- The complete independent GitHub repository is **pushed** to `enstest1/qgen` (private, `main`); no unrelated repository was altered. The GitHub Actions workflow remains a template until an authorized token can install it.
+- The complete independent GitHub repository is **pushed** to `enstest1/qgen` (public, `main`); no unrelated repository was altered. The GitHub Actions workflow remains a template until an authorized token can install it.
 
 ## Precise request to Qlyphs developer
 

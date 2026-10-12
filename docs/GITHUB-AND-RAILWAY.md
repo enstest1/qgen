@@ -1,12 +1,12 @@
 # QGEN — GitHub and Railway handoff status
 
-**GitHub:** https://github.com/enstest1/qgen (private, branch `main`). All application source, 256 demo SVGs, tests, documentation and technical integration questions are committed. Changes must be reviewed by pull request before any live mint.
+**GitHub:** https://github.com/enstest1/qgen (public, branch `main`). All application source, 256 demo SVGs, tests, documentation and technical integration questions are committed. Changes must be reviewed by pull request before any live mint.
 
 **Railway:** https://qgen.up.railway.app/ — separately deployed **read-only Bun Function demo**, not the Node/SQLite source repository. It uses simulated Quantus block inputs and cannot sign, mint, or collect money. The existing Railway project is named `qgen`.
 
 ## Developer review
 
-1. Invite the Qlyphs developer as a collaborator to the private GitHub repo, or share a code archive. Without permission, the repo links are not publicly readable.
+1. Share the public GitHub URL for read-only review. Grant repository write access only if there is a specific reason; otherwise accept suggestions/issues or pull requests.
 2. Start at `docs/DEVELOPER-MESSAGE.md`; then `docs/DEVELOPER-INTEGRATION-CONTRACT.md`, `docs/INTEGRATION-STATUS.md`, `src/wallet.mjs`, `src/verification.mjs`, and tests.
 3. Review and answer the supported origin approval, single-transaction creator fee, finalized receipt schema and fee/size rules. Nothing in this repository requests protocol changes by default.
 4. Keep signing and fees disabled until the test checklist in `docs/LAUNCH-GATES.md` is complete.

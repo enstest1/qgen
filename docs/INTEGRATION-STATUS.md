@@ -9,4 +9,4 @@
 - The proposed creator charge is **approximately US$3 equivalent in QTC** *in addition to* Qlyphs and network fees, only if an approved, disclosed, wallet-confirmed payment mechanism becomes available. No fee is currently taken. Fees, exchange rates and onchain block schedule remain unverified at live checkout.
 - Qlyphs origin approval, an atomic inscription-plus-creator-fee method, trusted chain/indexer receipts, persistent registry, real wallet QA and a capped mainnet smoke test remain outstanding. Without these, **paid minting stays disabled**.
 
-Detailed implementation request: [`DEVELOPER-MESSAGE.md`](DEVELOPER-MESSAGE.md); design contract: [`DEVELOPER-INTEGRATION-CONTRACT.md`](DEVELOPER-INTEGRATION-CONTRACT.md); launch requirements: [`LAUNCH-GATES.md`](LAUNCH-GATES.md).
+Public source: https://github.com/enstest1/qgen. Detailed implementation request: [`DEVELOPER-MESSAGE.md`](DEVELOPER-MESSAGE.md); design contract: [`DEVELOPER-INTEGRATION-CONTRACT.md`](DEVELOPER-INTEGRATION-CONTRACT.md); launch requirements: [`LAUNCH-GATES.md`](LAUNCH-GATES.md).

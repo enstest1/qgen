@@ -1,17 +1,17 @@
-# QGEN — Qlyphs integration questions
+# QGEN — Qlyphs integration: technical questions
 
-**Source:** https://github.com/enstest1/qgen (private; access by invitation)
-**Preview:** https://qgen.up.railway.app/
+**Code:** https://github.com/enstest1/qgen (public)
+**Demo:** https://qgen.up.railway.app/
 
-QGEN is an independent, 256-edition Quantus PFP generator intended to inscribe each self-contained `image/svg+xml` (≤960 UTF-8 bytes) as a Qlyphs Quark. The renderer, tests, and demo UI are built. The current demo uses **simulated block data**. **Mainnet wallet signing, Quark minting, and creator payments are disabled.**
+QGEN generates a 256-edition, deterministic, self-contained SVG PFP collection intended for Quarks on Quantus. Each demo SVG fits within a conservative 960-byte UTF-8 budget. The demo uses **simulated block data**; mainnet signing, inscription, and payments remain **disabled**. QGEN is independent of Quantus/Qlyphs, and its 256-edition cap is an offchain collection rule, not a native Quarks supply cap.
 
-We need technical confirmation of the supported integration path:
+We're looking for definitive integration guidance (API/schema/examples), not asking you to build it for us.
 
-1. **Wallet / origin:** Can you approve our HTTPS staging and production origins for Qlyphs Keys or the browser extension? Which supported provider version/import, `connect`/account methods, `requestTransaction` schema, and network-switch events should we use?
-2. **Single-transaction fees:** Does the current wallet/native protocol support one collector-approved **atomic** transaction that inscribes an `image/svg+xml` Quark *and* transfers a separately displayed ~US$3-equivalent QTC creator fee to a published address? If unsupported, would this need a new command/native batch, or is there an existing safer pattern? We will **not** misrepresent two payments as atomic.
-3. **Verification:** Which finalized mainnet RPC/indexer endpoints and response fields should the backend use to verify the exact inscription bytes/hash, Quark ID, owner/creator, accepted QLYP operation, included creator-payment output, block height, 20-block finality and reorg handling? A sample finalized receipt would help.
-4. **Limits / pricing:** Please confirm the allowed SVG MIME type and exact content-byte budget; fees before/after height **218,350**; authoritative QTC/USD conversion method and native base units; genesis/network IDs; and browser/mobile wallet support.
+1. **Dapp wallet connection:** Can `https://qgen.up.railway.app` (or a distinct mint subdomain) be approved for Qlyphs Keys/extension access? What is the recommended wallet provider/SDK version and the exact connect, account, network and `requestTransaction` / `inscribe` API? Is mobile supported?
+2. **Creator payout:** Does the currently supported flow allow **one collector-approved atomic transaction** containing both the SVG Quark inscription and an additional explicit QTC output to our dev address (approximately US$3 equivalent), while retaining Qlyphs/network fees? If not, what supported approach do you recommend? We won't label separate transactions as atomic or charge a fee without clear approval.
+3. **Onchain verification:** Which authoritative RPC/indexer endpoints and response fields return an inscription's complete content bytes/hash, Quark ID, owner/creator, transaction/output data, status, finalization height and reorg handling? Could you share an example finalized Quark inscription receipt (including multiple outputs if supported)?
+4. **Limits, fees and network:** Please confirm the exact total content size/envelope overhead, accepted `image/svg+xml` format, Quark fee schedule before/after block **218,350**, authoritative QTC/USD conversion, QTC base units, mainnet network/genesis identifiers, and required confirmation depth.
 
-Relevant review files: [`docs/DEVELOPER-INTEGRATION-CONTRACT.md`](DEVELOPER-INTEGRATION-CONTRACT.md), [`src/wallet.mjs`](../src/wallet.mjs), [`src/engine.mjs`](../src/engine.mjs), [`src/verification.mjs`](../src/verification.mjs), and [`docs/LAUNCH-GATES.md`](LAUNCH-GATES.md).
+**For review:** [wallet adapter](../src/wallet.mjs), [SVG generator](../src/engine.mjs), [transaction verifier](../src/verification.mjs), [integration contract](DEVELOPER-INTEGRATION-CONTRACT.md), [launch blockers](LAUNCH-GATES.md).
 
-**Request is for API/schema answers and feasibility confirmation, not an immediate change to your wallet.** We can adapt our site to the recommended supported method. No keys, custody, or mainnet spending are needed for review.
+No private keys, wallet custody or mainnet spending are needed to answer these questions. We can adjust our integration to the supported path.
