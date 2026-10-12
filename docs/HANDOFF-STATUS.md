@@ -12,7 +12,7 @@
 
 ## Precise request to Qlyphs developer
 
-Please read `docs/DEVELOPER-MESSAGE.md` first (copy/paste message), `docs/DEVELOPER-INTEGRATION-CONTRACT.md` second, and check `src/engine.mjs`, `src/wallet.mjs`, `src/proof.mjs` and tests. We need:
+Please read `docs/DEVELOPER-MESSAGE.md` first (copy/paste message), `docs/DEVELOPER-INTEGRATION-CONTRACT.md` second, and check `src/engine.mjs`, `src/wallet.mjs`, `src/verification.mjs` and tests. We need:
 
 1. **Approved dapp origin and documented SDK** for Qlyphs Keys / extension on mainnet.
 2. **Single atomic, explicitly user-authorized inscription + creator payment**, or authoritative advice on the safe equivalent. No pre-mint, offchain custody or invisible charges; minter can cancel without fee.
