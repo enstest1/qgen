@@ -1,0 +1,4874 @@
+{
+  "name": "QUANT//GENESIS",
+  "version": "QG1",
+  "warning": "DEMO ONLY. Synthetic block hashes and dummy genesis. NOT mainnet provenance or actual Quarks.",
+  "collectionSize": 256,
+  "anchorHeight": 200000,
+  "genesis": "DEMO-NOT-MAINNET",
+  "items": [
+    {
+      "edition": 1,
+      "file": "qg-001.svg",
+      "sourceHeight": 200000,
+      "sourceHash": "c0089eac72c92e0c41683635d0be59f0cb757ed15d2d6498d6e92c4a7e5fdd96",
+      "contentSha256": "3670242277b4a548f3d62ddd4b74bc57c020e64ac03acb507953d30c6fc5dd77",
+      "bytes": 781,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 5,
+        "eye": 0,
+        "mouth": 5,
+        "halo": 2,
+        "crown": 5,
+        "glitch": 2,
+        "lattice": 3
+      },
+      "raritySignal": 17
+    },
+    {
+      "edition": 2,
+      "file": "qg-002.svg",
+      "sourceHeight": 200001,
+      "sourceHash": "d5fafb966d9fd8b48ea5b29683c56c51fa3c0fd60e5d692f636debb3505da2e0",
+      "contentSha256": "f47d0c1fd9134b49ccfb2162188e612bcca00edef2d7e7250cf149c87709df22",
+      "bytes": 783,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 3,
+        "eye": 2,
+        "mouth": 2,
+        "halo": 2,
+        "crown": 5,
+        "glitch": 0,
+        "lattice": 3
+      },
+      "raritySignal": 17
+    },
+    {
+      "edition": 3,
+      "file": "qg-003.svg",
+      "sourceHeight": 200002,
+      "sourceHash": "075eeed3a2bef5e30aad35eed107d8522f2cce40dbced7ddee2d965c1fe54c72",
+      "contentSha256": "060ff61bde08ebb992d3cbc45d142cb8d514d727b90512d787d8f85f0f9ca6a9",
+      "bytes": 847,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 4,
+        "eye": 3,
+        "mouth": 3,
+        "halo": 3,
+        "crown": 0,
+        "glitch": 2,
+        "lattice": 3
+      },
+      "raritySignal": 25
+    },
+    {
+      "edition": 4,
+      "file": "qg-004.svg",
+      "sourceHeight": 200003,
+      "sourceHash": "6720914db711ede5882247ba1f278255128a5f73f5654c8ff1ea496666ad5560",
+      "contentSha256": "aea220c420b841ca90aafff87d401a74d1630f3b979f638634412d818d3bcb5f",
+      "bytes": 792,
+      "traits": {
+        "palette": "GHOST",
+        "shape": 0,
+        "eye": 3,
+        "mouth": 0,
+        "halo": 1,
+        "crown": 5,
+        "glitch": 1,
+        "lattice": 2
+      },
+      "raritySignal": 17
+    },
+    {
+      "edition": 5,
+      "file": "qg-005.svg",
+      "sourceHeight": 200004,
+      "sourceHash": "ef4fbef9314e855813eb8a4302c8b1855bbc4e7e5b669c34d9539f7519d33250",
+      "contentSha256": "c9624cd164971ef27abea0f317853f661858c619fc6fab7be706d89c60db8747",
+      "bytes": 774,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 5,
+        "eye": 0,
+        "mouth": 0,
+        "halo": 3,
+        "crown": 2,
+        "glitch": 0,
+        "lattice": 2
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 6,
+      "file": "qg-006.svg",
+      "sourceHeight": 200005,
+      "sourceHash": "34e152d23af3fd15c12b56bf240bd8211a72c9d78049688f0e2a0aabaef31014",
+      "contentSha256": "f37e588911d10aa690fe649067cdb4700821341e80b770984371118fc1ee7766",
+      "bytes": 641,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 2,
+        "eye": 5,
+        "mouth": 4,
+        "halo": 0,
+        "crown": 2,
+        "glitch": 1,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 7,
+      "file": "qg-007.svg",
+      "sourceHeight": 200006,
+      "sourceHash": "745925bffa98f4bc0b3324f8656e3c2fe69329c816c3b862ea114d6c1eb56ad1",
+      "contentSha256": "5a656c341b0d25a52ca77199e6b2d35f88d49c4a59c789fda3f1befccc0a1db5",
+      "bytes": 632,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 4,
+        "eye": 0,
+        "mouth": 4,
+        "halo": 0,
+        "crown": 0,
+        "glitch": 0,
+        "lattice": 3
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 8,
+      "file": "qg-008.svg",
+      "sourceHeight": 200007,
+      "sourceHash": "64e79332908ca5da2f3b45c1bda203880dd5f3d002b8728314fadcf25f3102fa",
+      "contentSha256": "4e18e677f69a63d4e476c6e20e217eba3c38f15eab8e34ecbe914c21ce0ec293",
+      "bytes": 758,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 2,
+        "eye": 3,
+        "mouth": 5,
+        "halo": 2,
+        "crown": 3,
+        "glitch": 0,
+        "lattice": 3
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 9,
+      "file": "qg-009.svg",
+      "sourceHeight": 200008,
+      "sourceHash": "76632d70a653b52c4aa96cbea95a3da715c3db02c43ffd9d8a5ca372fd61793e",
+      "contentSha256": "2605e34a2ffe8575e0a0b122c7b6037b0f0c5a12cc349f5c8f9c779e71f7d50a",
+      "bytes": 731,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 0,
+        "eye": 2,
+        "mouth": 4,
+        "halo": 2,
+        "crown": 1,
+        "glitch": 1,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 10,
+      "file": "qg-010.svg",
+      "sourceHeight": 200009,
+      "sourceHash": "5eaa3a75f19267568cb13e40d8c7827673fef628e1f7f4ed05c53b1fa864623b",
+      "contentSha256": "7d75ca6821828853d3d3dd57a5aa0e31a5b07cc4b862e1a5b4cb752eb61f255f",
+      "bytes": 814,
+      "traits": {
+        "palette": "GHOST",
+        "shape": 5,
+        "eye": 2,
+        "mouth": 2,
+        "halo": 1,
+        "crown": 3,
+        "glitch": 1,
+        "lattice": 3
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 11,
+      "file": "qg-011.svg",
+      "sourceHeight": 200010,
+      "sourceHash": "657592714cfb0f1b286671bffce0c57222ae28612d8dadc3a8b54fb3dff47d2b",
+      "contentSha256": "f2cf5528e94fa5c75caba48d092a5b89fe55586eb912fe62439e8b4fa7d934d0",
+      "bytes": 683,
+      "traits": {
+        "palette": "VIRIDIAN",
+        "shape": 1,
+        "eye": 5,
+        "mouth": 0,
+        "halo": 0,
+        "crown": 5,
+        "glitch": 0,
+        "lattice": 3
+      },
+      "raritySignal": 17
+    },
+    {
+      "edition": 12,
+      "file": "qg-012.svg",
+      "sourceHeight": 200011,
+      "sourceHash": "c1b6cc5118890daf60f6b87099d41f3c4079471b123c2081d8fa9deedb0fdb39",
+      "contentSha256": "e38b0aee877e1423b40d26b7bf08a70065a84a35ca78b06702a6982601ff9582",
+      "bytes": 828,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 0,
+        "eye": 2,
+        "mouth": 1,
+        "halo": 1,
+        "crown": 3,
+        "glitch": 4,
+        "lattice": 1
+      },
+      "raritySignal": 12
+    },
+    {
+      "edition": 13,
+      "file": "qg-013.svg",
+      "sourceHeight": 200012,
+      "sourceHash": "63a296b4f63eb0c164bf2f1c5e4d8f09cc527f619cf7d4f8d25822b8c729e929",
+      "contentSha256": "71db644ff03dce619968e3301b4461ae37d0572689be2b2f5e1f7c3ea6ebfcc7",
+      "bytes": 831,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 4,
+        "eye": 2,
+        "mouth": 5,
+        "halo": 3,
+        "crown": 5,
+        "glitch": 2,
+        "lattice": 1
+      },
+      "raritySignal": 17
+    },
+    {
+      "edition": 14,
+      "file": "qg-014.svg",
+      "sourceHeight": 200013,
+      "sourceHash": "305fe62401f6ee4f34d18fc4d582c2a63992500283949d344d08b7441826db1a",
+      "contentSha256": "f0b40cf6220dfbc885ab07776cc3abd53cc58a3b5bfb5b42bc808df415de27f6",
+      "bytes": 797,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 3,
+        "eye": 0,
+        "mouth": 3,
+        "halo": 2,
+        "crown": 5,
+        "glitch": 3,
+        "lattice": 2
+      },
+      "raritySignal": 31
+    },
+    {
+      "edition": 15,
+      "file": "qg-015.svg",
+      "sourceHeight": 200014,
+      "sourceHash": "70bd20d82bd7504906e87c01da9c4773530905c1fbeb392a274b3928b35fc76c",
+      "contentSha256": "d1457a256d05e360ab2fb8974240327d7a3cf602ae44a7a9b62ea256717d8c8b",
+      "bytes": 757,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 5,
+        "eye": 2,
+        "mouth": 4,
+        "halo": 0,
+        "crown": 4,
+        "glitch": 3,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 16,
+      "file": "qg-016.svg",
+      "sourceHeight": 200015,
+      "sourceHash": "de236c7c8c5e81a03ecc6ee1e04424e687471ab21b34614623233f71fcf0554d",
+      "contentSha256": "b7459d6fb9dff43aba0d63ecae8b03e77f63b9a9a6b68a21573d746c1e9aedeb",
+      "bytes": 749,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 5,
+        "eye": 1,
+        "mouth": 0,
+        "halo": 1,
+        "crown": 1,
+        "glitch": 4,
+        "lattice": 0
+      },
+      "raritySignal": 12
+    },
+    {
+      "edition": 17,
+      "file": "qg-017.svg",
+      "sourceHeight": 200016,
+      "sourceHash": "2359cce50d69d0a56de5d8308676d2cf2d467acabe1a56f9ac6293ad5967ef47",
+      "contentSha256": "18db41b1a81dcbf665f21626e5eb7bcb99597a8c93c81f1f08cc2157615f9bc6",
+      "bytes": 785,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 5,
+        "eye": 0,
+        "mouth": 1,
+        "halo": 3,
+        "crown": 2,
+        "glitch": 3,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 18,
+      "file": "qg-018.svg",
+      "sourceHeight": 200017,
+      "sourceHash": "b945523f66e760e08bfcf5b5c3d5f51b30ea43be024167082e54f9c0c9539cb1",
+      "contentSha256": "88af166fbacadcc41e7dbcb97b3b8ccdd56906236dcba9b98f22b5a620f9058b",
+      "bytes": 665,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 0,
+        "eye": 3,
+        "mouth": 5,
+        "halo": 0,
+        "crown": 1,
+        "glitch": 1,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 19,
+      "file": "qg-019.svg",
+      "sourceHeight": 200018,
+      "sourceHash": "bdc596a8a84a6875ec91bae86edfe9d42f19362bc856a7d23d2140c7f98db6a6",
+      "contentSha256": "55c0a3911799215b716870a1bfc00251d8fa5d3bcb608a272d67c0826b5a7c38",
+      "bytes": 806,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 5,
+        "eye": 0,
+        "mouth": 1,
+        "halo": 3,
+        "crown": 0,
+        "glitch": 3,
+        "lattice": 2
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 20,
+      "file": "qg-020.svg",
+      "sourceHeight": 200019,
+      "sourceHash": "75df7628b3cb4f20887291605ef6c075a009e92a0b291ad0b5c3ccfdadc834e0",
+      "contentSha256": "47985cf1fd6fa17196808580aaadcf70fed8f80a99804f56aa457d97339f1d80",
+      "bytes": 728,
+      "traits": {
+        "palette": "GHOST",
+        "shape": 1,
+        "eye": 5,
+        "mouth": 1,
+        "halo": 3,
+        "crown": 5,
+        "glitch": 1,
+        "lattice": 1
+      },
+      "raritySignal": 17
+    },
+    {
+      "edition": 21,
+      "file": "qg-021.svg",
+      "sourceHeight": 200020,
+      "sourceHash": "3335b6a51fd3b3e7f5a75ffa4aff164ef4f44dfdd672a931087faba262d1f516",
+      "contentSha256": "127860bc31b24ece5d8e00354bca71df428bce2565fcd3cb69b6bb6d4a1322bf",
+      "bytes": 791,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 5,
+        "eye": 2,
+        "mouth": 5,
+        "halo": 3,
+        "crown": 4,
+        "glitch": 1,
+        "lattice": 0
+      },
+      "raritySignal": 19
+    },
+    {
+      "edition": 22,
+      "file": "qg-022.svg",
+      "sourceHeight": 200021,
+      "sourceHash": "8ab21b2a412836db3b84245ae98989c80b736f52ae856b2be1dfd504ccbebca1",
+      "contentSha256": "acd8a0ee21c721db9f61f90c04ffbc828f1955b2ca372dedd638f42df446253b",
+      "bytes": 723,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 1,
+        "eye": 1,
+        "mouth": 3,
+        "halo": 1,
+        "crown": 2,
+        "glitch": 1,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 23,
+      "file": "qg-023.svg",
+      "sourceHeight": 200022,
+      "sourceHash": "556d0b0d35cea66e7d0c3ccaa1324b3d6535c642e051bf92290d60577371a50c",
+      "contentSha256": "be89e642aafcc587328dd3c588656ec7bf23471d7a5a6875d5934599b043ca97",
+      "bytes": 798,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 1,
+        "eye": 5,
+        "mouth": 4,
+        "halo": 2,
+        "crown": 1,
+        "glitch": 3,
+        "lattice": 2
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 24,
+      "file": "qg-024.svg",
+      "sourceHeight": 200023,
+      "sourceHash": "e1d495aaf62627c89a461f898517cc3a97d4e418740309542b39114112e55653",
+      "contentSha256": "169086ca8bc8736103f1773f1dd9638b5bf793d4648af67940a4c3802a9e78d1",
+      "bytes": 789,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 4,
+        "eye": 3,
+        "mouth": 5,
+        "halo": 1,
+        "crown": 2,
+        "glitch": 1,
+        "lattice": 3
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 25,
+      "file": "qg-025.svg",
+      "sourceHeight": 200024,
+      "sourceHash": "900b1c73ea952022f34e4d715831e279b5797e55f90ef87523cd1c29b5772902",
+      "contentSha256": "39066b2e5a23cb3d1e284d92d5f5c18a71104a121dfdbb85efbf22d18b98e11c",
+      "bytes": 798,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 4,
+        "eye": 3,
+        "mouth": 5,
+        "halo": 3,
+        "crown": 1,
+        "glitch": 1,
+        "lattice": 3
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 26,
+      "file": "qg-026.svg",
+      "sourceHeight": 200025,
+      "sourceHash": "86469d41861239a0b7124ee4d24e755e96cfa42eb5dc0d5b8fb655b4a55a7473",
+      "contentSha256": "c86dfdcaff8443b5ded7f0e35bb6a771e6984e75235b0c8b7f8c5f018379b58f",
+      "bytes": 786,
+      "traits": {
+        "palette": "GHOST",
+        "shape": 4,
+        "eye": 2,
+        "mouth": 1,
+        "halo": 2,
+        "crown": 4,
+        "glitch": 2,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 27,
+      "file": "qg-027.svg",
+      "sourceHeight": 200026,
+      "sourceHash": "8498d639eef83233beded1e49bc759a41a785c59b7d51b8ed91aa1cbef1babfe",
+      "contentSha256": "e4df002a7e28eb94fa01075a5bac6d3e86a750576593747e89b8f69cbdb7afff",
+      "bytes": 787,
+      "traits": {
+        "palette": "VIRIDIAN",
+        "shape": 2,
+        "eye": 1,
+        "mouth": 0,
+        "halo": 3,
+        "crown": 4,
+        "glitch": 2,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 28,
+      "file": "qg-028.svg",
+      "sourceHeight": 200027,
+      "sourceHash": "0b36731a32b252faf4a372abd32282396ac378e5df067f927ec9cca3fb8877df",
+      "contentSha256": "ca9127f919f7d16f3d13601145d19543ba73bac141854130a2e2a1842b7e0d2e",
+      "bytes": 678,
+      "traits": {
+        "palette": "GHOST",
+        "shape": 0,
+        "eye": 5,
+        "mouth": 5,
+        "halo": 0,
+        "crown": 0,
+        "glitch": 4,
+        "lattice": 0
+      },
+      "raritySignal": 32
+    },
+    {
+      "edition": 29,
+      "file": "qg-029.svg",
+      "sourceHeight": 200028,
+      "sourceHash": "fafa25e4545afea21c8a08063c48f9ab8c735b5b973b8557cdc4a7bcfa87293a",
+      "contentSha256": "16a8f258547c834e8074a6b88628a08dc2788a171cd763676f2fa591e9af1240",
+      "bytes": 795,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 3,
+        "eye": 0,
+        "mouth": 3,
+        "halo": 2,
+        "crown": 5,
+        "glitch": 2,
+        "lattice": 3
+      },
+      "raritySignal": 17
+    },
+    {
+      "edition": 30,
+      "file": "qg-030.svg",
+      "sourceHeight": 200029,
+      "sourceHash": "9fc19c68ec494f7601b00864e6eb3abe9ec6c68302612b80b0e52a1c2dfea3f7",
+      "contentSha256": "27f3f9454a2f5b0a4bb8d70f37732fd5be1eebb67ae5c84d5916a39107bdedec",
+      "bytes": 704,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 2,
+        "eye": 3,
+        "mouth": 3,
+        "halo": 0,
+        "crown": 0,
+        "glitch": 2,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 31,
+      "file": "qg-031.svg",
+      "sourceHeight": 200030,
+      "sourceHash": "b12e781dde22332d77ef867dbefdf68c021659d44ba14a95ac6d452dd2e690dc",
+      "contentSha256": "60241da59899ebf9cacee7e3a319a51ca19d57244e8760409a1c31aa28015e75",
+      "bytes": 787,
+      "traits": {
+        "palette": "VIRIDIAN",
+        "shape": 0,
+        "eye": 2,
+        "mouth": 0,
+        "halo": 2,
+        "crown": 1,
+        "glitch": 2,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 32,
+      "file": "qg-032.svg",
+      "sourceHeight": 200031,
+      "sourceHash": "71972a6d939552228600d8747c5054811635e685a157e5ee6a8211587dbc2adb",
+      "contentSha256": "2bce6e499d6078a37b7937acdae57615be67b339ff27ee6b48209d1d9e567d69",
+      "bytes": 771,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 2,
+        "eye": 4,
+        "mouth": 0,
+        "halo": 1,
+        "crown": 0,
+        "glitch": 3,
+        "lattice": 2
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 33,
+      "file": "qg-033.svg",
+      "sourceHeight": 200032,
+      "sourceHash": "1abdfb94bd2fbb6bd65e0e91134f770e20771df2b183bf9aaff51fa5f57ba0c3",
+      "contentSha256": "114b42f7f91ed6e2e1da07385d0f2cf665dcad7430788568be5d6d58f170c5df",
+      "bytes": 688,
+      "traits": {
+        "palette": "GHOST",
+        "shape": 0,
+        "eye": 0,
+        "mouth": 0,
+        "halo": 1,
+        "crown": 1,
+        "glitch": 1,
+        "lattice": 1
+      },
+      "raritySignal": 19
+    },
+    {
+      "edition": 34,
+      "file": "qg-034.svg",
+      "sourceHeight": 200033,
+      "sourceHash": "205b9d52dc522cbdcff123f9f56f6db9ff773227a0279e6106d6a575874716e2",
+      "contentSha256": "4983c074ea260bffbc796a9e4ccd1984cc63743b35ff20f647ccbd2a70911e2b",
+      "bytes": 801,
+      "traits": {
+        "palette": "GHOST",
+        "shape": 4,
+        "eye": 0,
+        "mouth": 5,
+        "halo": 1,
+        "crown": 3,
+        "glitch": 3,
+        "lattice": 3
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 35,
+      "file": "qg-035.svg",
+      "sourceHeight": 200034,
+      "sourceHash": "21d0a0566bcebfe30a1509c34d69fda10a9d879bcc3fb92dcf6dc0ac1c710eac",
+      "contentSha256": "a31bb0537db22b1b9cd7856241aab524921a5157b3a37fbea64385100edf554f",
+      "bytes": 662,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 3,
+        "eye": 0,
+        "mouth": 0,
+        "halo": 2,
+        "crown": 4,
+        "glitch": 0,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 36,
+      "file": "qg-036.svg",
+      "sourceHeight": 200035,
+      "sourceHash": "267f052aaea06ebe397887b40994047717df78f825770ac909b19c9d685725c9",
+      "contentSha256": "2c72a570bae02866beae469bc26dc59d7856bcc6babf6369498cdaf4d203db78",
+      "bytes": 812,
+      "traits": {
+        "palette": "VIRIDIAN",
+        "shape": 3,
+        "eye": 3,
+        "mouth": 2,
+        "halo": 3,
+        "crown": 1,
+        "glitch": 1,
+        "lattice": 2
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 37,
+      "file": "qg-037.svg",
+      "sourceHeight": 200036,
+      "sourceHash": "6cc01d8b552a23ce6a199318552498fb1f49836152331b1a1413e4fdd145dab7",
+      "contentSha256": "7313c122c61aab621b912f19d711808278d972e65e0945e5aae918e4793fa810",
+      "bytes": 626,
+      "traits": {
+        "palette": "GHOST",
+        "shape": 0,
+        "eye": 0,
+        "mouth": 4,
+        "halo": 0,
+        "crown": 5,
+        "glitch": 1,
+        "lattice": 0
+      },
+      "raritySignal": 17
+    },
+    {
+      "edition": 38,
+      "file": "qg-038.svg",
+      "sourceHeight": 200037,
+      "sourceHash": "234a71a44b1667108304da7de1c64f3fe76670f7ad0e572b4f76b342f81852ed",
+      "contentSha256": "1b6be3fb29e1a77a921d1479fc42933be69e37d0e83a0c7a1f69a044888f115b",
+      "bytes": 701,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 0,
+        "eye": 0,
+        "mouth": 5,
+        "halo": 1,
+        "crown": 5,
+        "glitch": 1,
+        "lattice": 1
+      },
+      "raritySignal": 17
+    },
+    {
+      "edition": 39,
+      "file": "qg-039.svg",
+      "sourceHeight": 200038,
+      "sourceHash": "96f6a5302fcead7106ec32a39c1ed8fee23c8e8d41a7318aa48396a005327520",
+      "contentSha256": "0cd36c9957fec996252acfdc73867a3b70cd0f467a6e3e48f7572e1cb6b6b3ea",
+      "bytes": 672,
+      "traits": {
+        "palette": "GHOST",
+        "shape": 4,
+        "eye": 4,
+        "mouth": 3,
+        "halo": 0,
+        "crown": 1,
+        "glitch": 2,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 40,
+      "file": "qg-040.svg",
+      "sourceHeight": 200039,
+      "sourceHash": "d978d383b4b27e19cc8171f5ff1e6ab0aa9509982852bcde3d4803144f19e6f1",
+      "contentSha256": "31b32f9dbd1bbaa0bf3ed3f202cef869e50818bdecec5a091312f82428bcb1d1",
+      "bytes": 777,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 3,
+        "eye": 3,
+        "mouth": 5,
+        "halo": 2,
+        "crown": 4,
+        "glitch": 4,
+        "lattice": 0
+      },
+      "raritySignal": 12
+    },
+    {
+      "edition": 41,
+      "file": "qg-041.svg",
+      "sourceHeight": 200040,
+      "sourceHash": "b227a0c84015ef935357f45ecc6ab29e4ceceed5881d46fc2d7b5eb1ece5a1a8",
+      "contentSha256": "0c1e9d3e83bd196c7d8453a70589dfed3965e336612be4a386b1069c0f41bee5",
+      "bytes": 670,
+      "traits": {
+        "palette": "VIRIDIAN",
+        "shape": 3,
+        "eye": 0,
+        "mouth": 4,
+        "halo": 2,
+        "crown": 2,
+        "glitch": 0,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 42,
+      "file": "qg-042.svg",
+      "sourceHeight": 200041,
+      "sourceHash": "523be892ab7e518059baa7f2e272f9e6439e6728fb9bb98c110deed28c4a4370",
+      "contentSha256": "2c525029dbf485cbaa08ef892668292197cfc2ed10bf8b9b618873cbe45fbb44",
+      "bytes": 747,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 0,
+        "eye": 1,
+        "mouth": 1,
+        "halo": 2,
+        "crown": 2,
+        "glitch": 1,
+        "lattice": 2
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 43,
+      "file": "qg-043.svg",
+      "sourceHeight": 200042,
+      "sourceHash": "f7329ffee25849d6f2e17bdf84429b1708774745c5267e9200ca26b52ce3a078",
+      "contentSha256": "366de79a97f16142795f344849568cd2418f920b4d2f419a7d9f66e0f21a2001",
+      "bytes": 712,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 4,
+        "eye": 0,
+        "mouth": 5,
+        "halo": 3,
+        "crown": 2,
+        "glitch": 0,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 44,
+      "file": "qg-044.svg",
+      "sourceHeight": 200043,
+      "sourceHash": "c63c318b7a146e55da3f9e67def885440b971359f402039b47d2cf429796ebc1",
+      "contentSha256": "b67ad5558af326f6dabf555aed141fb29c718632a89dd421e173d93bcbe39431",
+      "bytes": 728,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 4,
+        "eye": 2,
+        "mouth": 4,
+        "halo": 0,
+        "crown": 5,
+        "glitch": 1,
+        "lattice": 3
+      },
+      "raritySignal": 17
+    },
+    {
+      "edition": 45,
+      "file": "qg-045.svg",
+      "sourceHeight": 200044,
+      "sourceHash": "76bdf21e8a8c485691c59b21809184d52adb1c51e05995cf12e3eae3e2ca647a",
+      "contentSha256": "0a0292d088db1189cca904514c7306803502b8d1a4a0644a89041c54a77d128a",
+      "bytes": 747,
+      "traits": {
+        "palette": "VIRIDIAN",
+        "shape": 1,
+        "eye": 4,
+        "mouth": 2,
+        "halo": 1,
+        "crown": 5,
+        "glitch": 0,
+        "lattice": 2
+      },
+      "raritySignal": 17
+    },
+    {
+      "edition": 46,
+      "file": "qg-046.svg",
+      "sourceHeight": 200045,
+      "sourceHash": "bdb36a8fcd23d33a7435bcb324c1f1dbe4562d1e5baafa644a021141bc1c382a",
+      "contentSha256": "ffaad8baee15eb885f5f9f18042456c1a57ec1d6da02949059ca73dd5be02154",
+      "bytes": 720,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 0,
+        "eye": 3,
+        "mouth": 1,
+        "halo": 2,
+        "crown": 4,
+        "glitch": 1,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 47,
+      "file": "qg-047.svg",
+      "sourceHeight": 200046,
+      "sourceHash": "6bc360a89924c19cb9e8131a78bda2e9b095b205f696b70b5bf3447c599ea27b",
+      "contentSha256": "966b36e8dc8064b4865f89f3abff3b7fef11d8847ee38243ac049cd30cbcee89",
+      "bytes": 855,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 2,
+        "eye": 1,
+        "mouth": 2,
+        "halo": 3,
+        "crown": 4,
+        "glitch": 3,
+        "lattice": 3
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 48,
+      "file": "qg-048.svg",
+      "sourceHeight": 200047,
+      "sourceHash": "502e0546c4a0f917b6b68655cfb21953f55aab7c3f72a3babddd5a301a2db1b0",
+      "contentSha256": "03306e7d582f2d6a0a77839bc68368b65a50db1b6dbd3f58e9a126bd373b84d0",
+      "bytes": 801,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 1,
+        "eye": 5,
+        "mouth": 2,
+        "halo": 2,
+        "crown": 5,
+        "glitch": 4,
+        "lattice": 2
+      },
+      "raritySignal": 24
+    },
+    {
+      "edition": 49,
+      "file": "qg-049.svg",
+      "sourceHeight": 200048,
+      "sourceHash": "25548f523637dd2812d9d155c87193b405dc802dcb8442fdd1a380ebbe04f725",
+      "contentSha256": "a0c6774019757e7873a9ab668899791ce868cd352878f18912f35910306cae90",
+      "bytes": 836,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 5,
+        "eye": 0,
+        "mouth": 3,
+        "halo": 1,
+        "crown": 2,
+        "glitch": 3,
+        "lattice": 3
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 50,
+      "file": "qg-050.svg",
+      "sourceHeight": 200049,
+      "sourceHash": "662466656f5ac4a6bd20d896c3c532f7915946fe2481c1e79bb60b2699e7f59e",
+      "contentSha256": "0d5a5b797777cf5baac324c85257317a8ffb3645838d8f82d98facfdff9123b5",
+      "bytes": 779,
+      "traits": {
+        "palette": "GHOST",
+        "shape": 3,
+        "eye": 5,
+        "mouth": 1,
+        "halo": 1,
+        "crown": 2,
+        "glitch": 2,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 51,
+      "file": "qg-051.svg",
+      "sourceHeight": 200050,
+      "sourceHash": "5a3f611d111e33dd36056b3099467766fe36d50f83a188ef0a4b2835b22f9ef8",
+      "contentSha256": "22c254126b32c31fcf5cf0b346024b991ff5996dfcc42497150a9d8a3c4c9e88",
+      "bytes": 814,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 4,
+        "eye": 3,
+        "mouth": 4,
+        "halo": 1,
+        "crown": 0,
+        "glitch": 2,
+        "lattice": 2
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 52,
+      "file": "qg-052.svg",
+      "sourceHeight": 200051,
+      "sourceHash": "d5bd9f1e71106897b39e08896c0763a168d2c7fa86f1f0c9011a788b14082845",
+      "contentSha256": "b16a318f5dcdeb7de25bdf471da74646e12c9b6e1b7dc90d312e14de4470edfc",
+      "bytes": 619,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 3,
+        "eye": 1,
+        "mouth": 1,
+        "halo": 0,
+        "crown": 1,
+        "glitch": 0,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 53,
+      "file": "qg-053.svg",
+      "sourceHeight": 200052,
+      "sourceHash": "88104bba506433cff739c984490fdcef5f0acaec8ee997f0329e7ad0c7bef2cc",
+      "contentSha256": "a0e54a7b3df2942563e50891819b75049164bae748145347ab145cd3d11dc60b",
+      "bytes": 644,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 4,
+        "eye": 3,
+        "mouth": 4,
+        "halo": 0,
+        "crown": 3,
+        "glitch": 1,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 54,
+      "file": "qg-054.svg",
+      "sourceHeight": 200053,
+      "sourceHash": "81e899a1615310dcac2139283993eb307dd6a77fe9b31b83e69c4dacc03626a4",
+      "contentSha256": "60a0f6cbdcac130923c430bf994be4d9754341814d82d5f3268f5dbead0bca7d",
+      "bytes": 814,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 1,
+        "eye": 1,
+        "mouth": 1,
+        "halo": 3,
+        "crown": 0,
+        "glitch": 4,
+        "lattice": 3
+      },
+      "raritySignal": 12
+    },
+    {
+      "edition": 55,
+      "file": "qg-055.svg",
+      "sourceHeight": 200054,
+      "sourceHash": "abbc00262c06cc4bcea195091b6f5c3462ad77a12e34e4149b8119927625d3b8",
+      "contentSha256": "1bf7cb2a178babacd037627738a03f7cb52f67daf51c4eedf7883d76371b9a62",
+      "bytes": 762,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 2,
+        "eye": 5,
+        "mouth": 3,
+        "halo": 2,
+        "crown": 2,
+        "glitch": 4,
+        "lattice": 0
+      },
+      "raritySignal": 12
+    },
+    {
+      "edition": 56,
+      "file": "qg-056.svg",
+      "sourceHeight": 200055,
+      "sourceHash": "fe6b2b437d594f683d786a704045d936964a7c9f649250cc8509ddb69b3bdc42",
+      "contentSha256": "592193e1de56751a66f1481a0d1122f4a35ee940f8bae7d1b29dc7eebd98cafb",
+      "bytes": 824,
+      "traits": {
+        "palette": "GHOST",
+        "shape": 2,
+        "eye": 3,
+        "mouth": 2,
+        "halo": 2,
+        "crown": 3,
+        "glitch": 4,
+        "lattice": 2
+      },
+      "raritySignal": 12
+    },
+    {
+      "edition": 57,
+      "file": "qg-057.svg",
+      "sourceHeight": 200056,
+      "sourceHash": "00540143aafa9e25a8ae7c5df0786221d3f14bc51b304283d761e53182eff5ce",
+      "contentSha256": "0f6183bc14c139c5cdddd61581afa5e93522c459e90285a6bdf74a50f9f03c7e",
+      "bytes": 866,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 0,
+        "eye": 2,
+        "mouth": 3,
+        "halo": 3,
+        "crown": 3,
+        "glitch": 3,
+        "lattice": 0
+      },
+      "raritySignal": 45
+    },
+    {
+      "edition": 58,
+      "file": "qg-058.svg",
+      "sourceHeight": 200057,
+      "sourceHash": "f72260386e700aae0bf8a32510097870d0d86bec4f7f64fd1071008ed7675dc8",
+      "contentSha256": "f556be0ad42a524d8a73a897eec82849bd3e03e174b1e5ac6edcdb1da80d09c1",
+      "bytes": 732,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 4,
+        "eye": 0,
+        "mouth": 0,
+        "halo": 1,
+        "crown": 5,
+        "glitch": 2,
+        "lattice": 0
+      },
+      "raritySignal": 17
+    },
+    {
+      "edition": 59,
+      "file": "qg-059.svg",
+      "sourceHeight": 200058,
+      "sourceHash": "bf5f3c0522c0581095ba4a201181996b1fa860bbcd2119e844d3eeb7b781fa53",
+      "contentSha256": "e96392a74d98cc47553a38e5b3f35dd20558f9be9d00c7550e308c6e1ed491e8",
+      "bytes": 665,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 1,
+        "eye": 0,
+        "mouth": 3,
+        "halo": 0,
+        "crown": 0,
+        "glitch": 3,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 60,
+      "file": "qg-060.svg",
+      "sourceHeight": 200059,
+      "sourceHash": "59d7f2ae05f40fc213ed26ad32fc03223c5dfe7bfff2a66a5401871f5f16c34e",
+      "contentSha256": "d2f868795c614f2fe9c3b456921f4af5f3fab80b15368792ad5378119b1a3755",
+      "bytes": 747,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 0,
+        "eye": 5,
+        "mouth": 1,
+        "halo": 2,
+        "crown": 5,
+        "glitch": 4,
+        "lattice": 0
+      },
+      "raritySignal": 24
+    },
+    {
+      "edition": 61,
+      "file": "qg-061.svg",
+      "sourceHeight": 200060,
+      "sourceHash": "a23d311fdd4889c986f7722372043587ca9f8b6cacd828b8538aa1ad44c4e814",
+      "contentSha256": "df06aeef03e191c20a46b76d0857518ead6596e4f83cb53aa2a673a88e8f6efd",
+      "bytes": 668,
+      "traits": {
+        "palette": "VIRIDIAN",
+        "shape": 4,
+        "eye": 0,
+        "mouth": 0,
+        "halo": 1,
+        "crown": 3,
+        "glitch": 0,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 62,
+      "file": "qg-062.svg",
+      "sourceHeight": 200061,
+      "sourceHash": "3242a2a187fe563e2643148043f1e7f470d30ea7a9148f40700cb1603db701d6",
+      "contentSha256": "f3fd1a22809153075501ba018a0e3361a53d5ee8e7611db092eb1b20f0ead08c",
+      "bytes": 792,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 2,
+        "eye": 3,
+        "mouth": 5,
+        "halo": 1,
+        "crown": 3,
+        "glitch": 1,
+        "lattice": 2
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 63,
+      "file": "qg-063.svg",
+      "sourceHeight": 200062,
+      "sourceHash": "9cd557d45a73b137395ecee8cb86582a729dddb030e20ae45781607fd567a6d7",
+      "contentSha256": "faa4f1cf2158f030c370445729a3d393166fb6548aa65c11152fc73a8b32fc9f",
+      "bytes": 803,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 4,
+        "eye": 3,
+        "mouth": 1,
+        "halo": 3,
+        "crown": 5,
+        "glitch": 4,
+        "lattice": 0
+      },
+      "raritySignal": 24
+    },
+    {
+      "edition": 64,
+      "file": "qg-064.svg",
+      "sourceHeight": 200063,
+      "sourceHash": "708413f6ced9c210a260ed8ecc44af0fb1d11f5a146c82fa2eb3638ccf7c453f",
+      "contentSha256": "2738fe90474e34b38fc73b0b29309a8497d51712145ae31892b5675ac7067165",
+      "bytes": 761,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 0,
+        "eye": 3,
+        "mouth": 4,
+        "halo": 0,
+        "crown": 0,
+        "glitch": 3,
+        "lattice": 3
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 65,
+      "file": "qg-065.svg",
+      "sourceHeight": 200064,
+      "sourceHash": "d88fc252bd50635ecf203f2ffd972a59e99fd9a5708efeca9b997aa87e26676a",
+      "contentSha256": "9f1d0698c640bf97d4abcb69b12ba2dcf297b5fcde6926d6374a457335e60a91",
+      "bytes": 846,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 2,
+        "eye": 3,
+        "mouth": 0,
+        "halo": 1,
+        "crown": 5,
+        "glitch": 2,
+        "lattice": 2
+      },
+      "raritySignal": 17
+    },
+    {
+      "edition": 66,
+      "file": "qg-066.svg",
+      "sourceHeight": 200065,
+      "sourceHash": "5e35f31f272aeb81d42f41bf175871b09d7ffe4ae25b96d26bd9352c9da7054e",
+      "contentSha256": "bcd6a77ab7a2cd4d4869a6d62942123e713f424d9bee58aa667facebc1e134aa",
+      "bytes": 726,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 3,
+        "eye": 3,
+        "mouth": 1,
+        "halo": 1,
+        "crown": 1,
+        "glitch": 0,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 67,
+      "file": "qg-067.svg",
+      "sourceHeight": 200066,
+      "sourceHash": "e75286bf3cd64dbd764173c8d8271dfc32a1412e0d13b80aadfedc77119446a8",
+      "contentSha256": "72b4025625fc5bd7b155fbe98f333abddb9acfef7448b0db44309b62a8ebe6d0",
+      "bytes": 610,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 5,
+        "eye": 0,
+        "mouth": 1,
+        "halo": 0,
+        "crown": 1,
+        "glitch": 0,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 68,
+      "file": "qg-068.svg",
+      "sourceHeight": 200067,
+      "sourceHash": "0e5333d1a16df44c9501c7efeb49415ce9803e98ce09819ec597156b4cb08190",
+      "contentSha256": "ddc802009ff15e9be74369ece094d4e7c228c286665f4483bc483c2411724f37",
+      "bytes": 693,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 1,
+        "eye": 2,
+        "mouth": 3,
+        "halo": 0,
+        "crown": 1,
+        "glitch": 1,
+        "lattice": 0
+      },
+      "raritySignal": 25
+    },
+    {
+      "edition": 69,
+      "file": "qg-069.svg",
+      "sourceHeight": 200068,
+      "sourceHash": "2ef2b59a59e6f1ec5646a023b6cd85ef5ec347eb03c5e2cedb9d1199baa0bdb8",
+      "contentSha256": "b658e197bf3e0f64215ac86b0b0c087b6102dc2edadc150b0953405bdacdf0fa",
+      "bytes": 855,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 4,
+        "eye": 3,
+        "mouth": 0,
+        "halo": 3,
+        "crown": 5,
+        "glitch": 2,
+        "lattice": 3
+      },
+      "raritySignal": 17
+    },
+    {
+      "edition": 70,
+      "file": "qg-070.svg",
+      "sourceHeight": 200069,
+      "sourceHash": "bd0e2f93f399da32a80e4a11efd88c08c38d6dfe1e193d8b590f3e8ae4a45efe",
+      "contentSha256": "9958cd297a30aabda574f9071d3d1ac583ddd5ee7fc3b75a969a5f2dfd35f871",
+      "bytes": 877,
+      "traits": {
+        "palette": "GHOST",
+        "shape": 0,
+        "eye": 3,
+        "mouth": 4,
+        "halo": 1,
+        "crown": 2,
+        "glitch": 4,
+        "lattice": 2
+      },
+      "raritySignal": 12
+    },
+    {
+      "edition": 71,
+      "file": "qg-071.svg",
+      "sourceHeight": 200070,
+      "sourceHash": "652b47417fe3543a692230149c9471fa071b9e3ac8b8f57de569ac3a22323662",
+      "contentSha256": "f8d90803361276cc236e9919250755ade61f2b76f5b36110029bda69cba9d515",
+      "bytes": 719,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 5,
+        "eye": 0,
+        "mouth": 1,
+        "halo": 1,
+        "crown": 0,
+        "glitch": 1,
+        "lattice": 2
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 72,
+      "file": "qg-072.svg",
+      "sourceHeight": 200071,
+      "sourceHash": "c455f7419bfbeef9240e8482ab4e8e85003faccd1175d50d4065a7854eca1b34",
+      "contentSha256": "1f030a4f67e951d287dc8702965697d252613398f74ee8c87b05326a0e778537",
+      "bytes": 741,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 4,
+        "eye": 2,
+        "mouth": 5,
+        "halo": 1,
+        "crown": 1,
+        "glitch": 0,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 73,
+      "file": "qg-073.svg",
+      "sourceHeight": 200072,
+      "sourceHash": "dbe17d71a8bf02e508b007068e16654406b0500be526989da142e9255269e034",
+      "contentSha256": "94ee664e3e29df4b4c910adaa850731e1380c197aad4ce860676cf25a923947d",
+      "bytes": 707,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 4,
+        "eye": 4,
+        "mouth": 4,
+        "halo": 1,
+        "crown": 0,
+        "glitch": 3,
+        "lattice": 0
+      },
+      "raritySignal": 19
+    },
+    {
+      "edition": 74,
+      "file": "qg-074.svg",
+      "sourceHeight": 200073,
+      "sourceHash": "730a942656be5c5ee47753c9f740aea4712d0639a4d886c1bed57d53de6b8e0f",
+      "contentSha256": "32fac3b4ed5e64d64f20771c7f7548a5df9db5208b4ed04745b739db3c4accee",
+      "bytes": 729,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 0,
+        "eye": 5,
+        "mouth": 5,
+        "halo": 1,
+        "crown": 4,
+        "glitch": 1,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 75,
+      "file": "qg-075.svg",
+      "sourceHeight": 200074,
+      "sourceHash": "65eafe5fa0b50f2d8b4ed2c34ee7529603877e551f193654999bc3f5eae364e3",
+      "contentSha256": "3f8049cef6e103dc08588ab6910446e75204219a16a39cdc9f0b317a7b80e34f",
+      "bytes": 685,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 1,
+        "eye": 5,
+        "mouth": 0,
+        "halo": 0,
+        "crown": 1,
+        "glitch": 3,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 76,
+      "file": "qg-076.svg",
+      "sourceHeight": 200075,
+      "sourceHash": "3cdeae6d84cc2b0bba5413be934dba6f86e6963d58695037130d6ba80ecdc5fa",
+      "contentSha256": "5967e403edb6546695720b2018434dcade50ca4df1941a6b1e737ff9dbba8f91",
+      "bytes": 830,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 0,
+        "eye": 2,
+        "mouth": 4,
+        "halo": 1,
+        "crown": 3,
+        "glitch": 3,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 77,
+      "file": "qg-077.svg",
+      "sourceHeight": 200076,
+      "sourceHash": "bc7c08dca14d0cc5541d3874757659423fb575f6c7c5d800118a0a34dec34fba",
+      "contentSha256": "80d804521068d122b82504754e2b0920a0a74f126ff6847d30094864a189dc20",
+      "bytes": 865,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 0,
+        "eye": 3,
+        "mouth": 5,
+        "halo": 1,
+        "crown": 3,
+        "glitch": 4,
+        "lattice": 3
+      },
+      "raritySignal": 12
+    },
+    {
+      "edition": 78,
+      "file": "qg-078.svg",
+      "sourceHeight": 200077,
+      "sourceHash": "25d30a556791b286f44181ff9bb234914d35ca9a4a047b885147388034b12515",
+      "contentSha256": "3192b6a263cec7bc5635be40f8b8bdc14f68723d29f1a6f73bab8fc2f51520ac",
+      "bytes": 779,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 1,
+        "eye": 5,
+        "mouth": 0,
+        "halo": 3,
+        "crown": 1,
+        "glitch": 0,
+        "lattice": 2
+      },
+      "raritySignal": 19
+    },
+    {
+      "edition": 79,
+      "file": "qg-079.svg",
+      "sourceHeight": 200078,
+      "sourceHash": "a15b4ed7df107fb500f94fe82d0460641a39bd0445c3dbbfd574ab38385ced4f",
+      "contentSha256": "1db9a67564182b55e41c27f8b3057a4173b855c0c0b7fec42f7f326acf2f1353",
+      "bytes": 785,
+      "traits": {
+        "palette": "GHOST",
+        "shape": 3,
+        "eye": 1,
+        "mouth": 4,
+        "halo": 3,
+        "crown": 3,
+        "glitch": 2,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 80,
+      "file": "qg-080.svg",
+      "sourceHeight": 200079,
+      "sourceHash": "2226282f064e0950203ae3192a56f74f564ee609cbb2fa5a11ca10c42a31aab9",
+      "contentSha256": "f0dbb3947e37c58a74c91c9dba5aeec3be42636b622bdce8834228fd9f48a718",
+      "bytes": 695,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 0,
+        "eye": 0,
+        "mouth": 5,
+        "halo": 3,
+        "crown": 0,
+        "glitch": 0,
+        "lattice": 1
+      },
+      "raritySignal": 19
+    },
+    {
+      "edition": 81,
+      "file": "qg-081.svg",
+      "sourceHeight": 200080,
+      "sourceHash": "9b78b150d95ce966d7ef66756d40ca58ce111324555aee2eb62607469cec88a7",
+      "contentSha256": "e6efec18f8f98faa272f09c114fc8ca4f4802adc369af5ff3fbdb9fa95a8dadb",
+      "bytes": 843,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 5,
+        "eye": 5,
+        "mouth": 3,
+        "halo": 1,
+        "crown": 3,
+        "glitch": 4,
+        "lattice": 2
+      },
+      "raritySignal": 12
+    },
+    {
+      "edition": 82,
+      "file": "qg-082.svg",
+      "sourceHeight": 200081,
+      "sourceHash": "4f579912607e2a2bf41b11c41ab64b90546a8714c21d9fa0638de6de7b66122e",
+      "contentSha256": "05c053c7e9159136aebde40ae70e35afaa7e85d459c78e3e8fa657f4093ccbfe",
+      "bytes": 772,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 3,
+        "eye": 5,
+        "mouth": 0,
+        "halo": 1,
+        "crown": 2,
+        "glitch": 2,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 83,
+      "file": "qg-083.svg",
+      "sourceHeight": 200082,
+      "sourceHash": "e3418c4b4f2ae3235d8518b6b491bd23b2a252c1e082e8d72761030e8e7c93a2",
+      "contentSha256": "ab90baa7fc87ad0002a06db931b9751f6a87eff651734d23cfa37ea40c9706ef",
+      "bytes": 786,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 1,
+        "eye": 3,
+        "mouth": 0,
+        "halo": 0,
+        "crown": 4,
+        "glitch": 2,
+        "lattice": 2
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 84,
+      "file": "qg-084.svg",
+      "sourceHeight": 200083,
+      "sourceHash": "103eae173850938e3933c5b7a529563809410367f4296d69e8a832a4057464d1",
+      "contentSha256": "ac4c189be56a75d8582562eac61257b2092c834e64e0f8564faa15c34a8c1c3d",
+      "bytes": 835,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 4,
+        "eye": 1,
+        "mouth": 3,
+        "halo": 1,
+        "crown": 4,
+        "glitch": 3,
+        "lattice": 2
+      },
+      "raritySignal": 19
+    },
+    {
+      "edition": 85,
+      "file": "qg-085.svg",
+      "sourceHeight": 200084,
+      "sourceHash": "373a92745866909d051f87438eba08b876315449a59e04c263cd9d5d459b6234",
+      "contentSha256": "efa483e7ad97c614e7b0cd4c4a8ab090bd44a597d2788cc2279c4491ce85ca71",
+      "bytes": 614,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 3,
+        "eye": 0,
+        "mouth": 1,
+        "halo": 0,
+        "crown": 3,
+        "glitch": 0,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 86,
+      "file": "qg-086.svg",
+      "sourceHeight": 200085,
+      "sourceHash": "afa22792b3657c3f73f25812adee4eaeb83a51a9f111d7c330a135158303a3b9",
+      "contentSha256": "b376afb3831d0c53828e62dceca387698ee547565e2535742e962e3c927c5b32",
+      "bytes": 750,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 5,
+        "eye": 5,
+        "mouth": 4,
+        "halo": 2,
+        "crown": 4,
+        "glitch": 2,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 87,
+      "file": "qg-087.svg",
+      "sourceHeight": 200086,
+      "sourceHash": "13c368e2b4ab068f36eaa4fc93f93b537f599d00e6e5c1fc01f56459ed164fff",
+      "contentSha256": "a892fa04a4982f2e1965cb1161ba80126774152e3ea21524e312226946cbab58",
+      "bytes": 817,
+      "traits": {
+        "palette": "VIRIDIAN",
+        "shape": 0,
+        "eye": 2,
+        "mouth": 0,
+        "halo": 0,
+        "crown": 2,
+        "glitch": 4,
+        "lattice": 3
+      },
+      "raritySignal": 12
+    },
+    {
+      "edition": 88,
+      "file": "qg-088.svg",
+      "sourceHeight": 200087,
+      "sourceHash": "7b861326203748cf86f400025255d2a4244775d623b34cf13b27327225a448c8",
+      "contentSha256": "00158bde5acff90b9edc025f75ec315df1f700a863b734d81719c2b1b52a4374",
+      "bytes": 690,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 0,
+        "eye": 0,
+        "mouth": 4,
+        "halo": 0,
+        "crown": 5,
+        "glitch": 4,
+        "lattice": 1
+      },
+      "raritySignal": 38
+    },
+    {
+      "edition": 89,
+      "file": "qg-089.svg",
+      "sourceHeight": 200088,
+      "sourceHash": "e7c4dd855fae57f5efd15989a3714b281c30abf69a15d60be814c6f40bfe00d4",
+      "contentSha256": "6f3e5da8584b73497d30a2aeadbc72435fc43a58dcab72bbc6225bb2035b4da7",
+      "bytes": 740,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 1,
+        "eye": 5,
+        "mouth": 2,
+        "halo": 2,
+        "crown": 5,
+        "glitch": 3,
+        "lattice": 1
+      },
+      "raritySignal": 17
+    },
+    {
+      "edition": 90,
+      "file": "qg-090.svg",
+      "sourceHeight": 200089,
+      "sourceHash": "73c799298b459b22085d7b9a0353ae0fecc6dbcb41cf96f3770eceb8e2705bbf",
+      "contentSha256": "64ca5fe29d41b1e6821244a63c954da7753d3fb9d94bc3dd24a3a8ea2bc02c1c",
+      "bytes": 753,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 4,
+        "eye": 3,
+        "mouth": 2,
+        "halo": 3,
+        "crown": 4,
+        "glitch": 0,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 91,
+      "file": "qg-091.svg",
+      "sourceHeight": 200090,
+      "sourceHash": "1d699ddde15425c401253ea623ff486ede94306c6d5793fcead75670413c7697",
+      "contentSha256": "f49ec1a58ff616420f5f64bc0dbd303ec565c8e3318345e895289bfcffa08fb3",
+      "bytes": 618,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 3,
+        "eye": 0,
+        "mouth": 0,
+        "halo": 0,
+        "crown": 2,
+        "glitch": 0,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 92,
+      "file": "qg-092.svg",
+      "sourceHeight": 200091,
+      "sourceHash": "ffa0691f10a065f10b2455b0b3143538a540d8a40959a9a24af5a57e2e08c784",
+      "contentSha256": "f4d16cde98782dcefb978769f771d8ec3ea69838876209c4977b60739d475e2b",
+      "bytes": 853,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 5,
+        "eye": 3,
+        "mouth": 4,
+        "halo": 1,
+        "crown": 5,
+        "glitch": 3,
+        "lattice": 3
+      },
+      "raritySignal": 31
+    },
+    {
+      "edition": 93,
+      "file": "qg-093.svg",
+      "sourceHeight": 200092,
+      "sourceHash": "64165b60c16e6e4cd16f15899e9f99e33a6e822bdf4664d22849d3d81d394ab8",
+      "contentSha256": "f1d0770f4ec07d031627445dd297b5f89e1e6f9d23a75cdf0f2a9687977ff844",
+      "bytes": 740,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 5,
+        "eye": 0,
+        "mouth": 1,
+        "halo": 3,
+        "crown": 0,
+        "glitch": 1,
+        "lattice": 3
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 94,
+      "file": "qg-094.svg",
+      "sourceHeight": 200093,
+      "sourceHash": "f12d82a41bfae27dd142436e628c9fd9e09f6493ea51771de005ae34acba11bb",
+      "contentSha256": "78e3b786b75bb14223a8caaadebdfcb82142854f2bf00b9c528680d891281da3",
+      "bytes": 696,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 4,
+        "eye": 5,
+        "mouth": 5,
+        "halo": 0,
+        "crown": 4,
+        "glitch": 4,
+        "lattice": 1
+      },
+      "raritySignal": 12
+    },
+    {
+      "edition": 95,
+      "file": "qg-095.svg",
+      "sourceHeight": 200094,
+      "sourceHash": "ad3183e6d8ccabf2d60c440878de7b0e52cd9be92ad339c8874eb463a36d219c",
+      "contentSha256": "8f3aa24674bd34134c4a5805682883904be7ff984b2421908d7d426720e58073",
+      "bytes": 852,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 1,
+        "eye": 2,
+        "mouth": 5,
+        "halo": 2,
+        "crown": 5,
+        "glitch": 3,
+        "lattice": 2
+      },
+      "raritySignal": 17
+    },
+    {
+      "edition": 96,
+      "file": "qg-096.svg",
+      "sourceHeight": 200095,
+      "sourceHash": "f107ef55597eeea6ed7a23b0d146877b246bc89d50ef49bab87f35c8ab39bbb8",
+      "contentSha256": "2731c85dba56eff3dae5c1d20b0bcc5efd62e3ccf75d057897d565df6bef9eee",
+      "bytes": 728,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 4,
+        "eye": 3,
+        "mouth": 1,
+        "halo": 1,
+        "crown": 4,
+        "glitch": 0,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 97,
+      "file": "qg-097.svg",
+      "sourceHeight": 200096,
+      "sourceHash": "9e63d117154572205015d2fffb82dfa27a278cbbee410912a241c89fd63bbac4",
+      "contentSha256": "807b56c87514fa9571b060e971ae0164f2fc1940d1f93e8d084f50326773c501",
+      "bytes": 701,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 1,
+        "eye": 1,
+        "mouth": 5,
+        "halo": 0,
+        "crown": 2,
+        "glitch": 3,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 98,
+      "file": "qg-098.svg",
+      "sourceHeight": 200097,
+      "sourceHash": "26ed49cbde6b5b0f03168a2408d5c9c32abb45e222eefeb3d027a001040873a8",
+      "contentSha256": "0aa95b701a67731dc992e858f3fa78d6bbc7319d730afdf47f344daa7bcb0a36",
+      "bytes": 741,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 3,
+        "eye": 0,
+        "mouth": 1,
+        "halo": 3,
+        "crown": 0,
+        "glitch": 0,
+        "lattice": 3
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 99,
+      "file": "qg-099.svg",
+      "sourceHeight": 200098,
+      "sourceHash": "b0725db65c739eca427c5cddcda9651bb65e222515e5a311768657b28c18c2ed",
+      "contentSha256": "f88d7ecf98ced10ec0918b5b4de36fae5f69b765618f87cd9d7bea2f1c6f95b4",
+      "bytes": 665,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 3,
+        "eye": 0,
+        "mouth": 0,
+        "halo": 0,
+        "crown": 1,
+        "glitch": 0,
+        "lattice": 2
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 100,
+      "file": "qg-100.svg",
+      "sourceHeight": 200099,
+      "sourceHash": "2b1357000447eec2426b59b84d60489ce4ad1f629e85d044c504d19168360cbf",
+      "contentSha256": "70323d95409f62e5a83273eb328df06f7db701f79b39cf062d9e6fa7ef8a3982",
+      "bytes": 761,
+      "traits": {
+        "palette": "GHOST",
+        "shape": 5,
+        "eye": 1,
+        "mouth": 4,
+        "halo": 2,
+        "crown": 0,
+        "glitch": 2,
+        "lattice": 3
+      },
+      "raritySignal": 19
+    },
+    {
+      "edition": 101,
+      "file": "qg-101.svg",
+      "sourceHeight": 200100,
+      "sourceHash": "dff466a2c9db7da7cf7f602b01a9305ea517e56c85be5b0c4bc838360056393e",
+      "contentSha256": "c638c2f8bab8ea31f44f190d45b99773e6bfd98fa62431ffd4a792b3dfa90177",
+      "bytes": 789,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 2,
+        "eye": 2,
+        "mouth": 1,
+        "halo": 1,
+        "crown": 0,
+        "glitch": 2,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 102,
+      "file": "qg-102.svg",
+      "sourceHeight": 200101,
+      "sourceHash": "3e7bdbdde7aabefd6af5d8e3d45654f415d6ef24fa7f978064d457d999dccfa2",
+      "contentSha256": "0cfd264040622fba6b9bc2c66410af2b42df43b4054cfd3ae73abddaaefb9a4e",
+      "bytes": 891,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 2,
+        "eye": 3,
+        "mouth": 2,
+        "halo": 3,
+        "crown": 4,
+        "glitch": 2,
+        "lattice": 2
+      },
+      "raritySignal": 19
+    },
+    {
+      "edition": 103,
+      "file": "qg-103.svg",
+      "sourceHeight": 200102,
+      "sourceHash": "1ff4503e7ef88795af89917ce5f16b8a293cc155df2a8376bb152b208c8ee2f6",
+      "contentSha256": "6dd33abf8bdfd2d6c572fdfdae65ec99ff2c4826e3821a73b8f845f1530fe758",
+      "bytes": 793,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 4,
+        "eye": 3,
+        "mouth": 3,
+        "halo": 1,
+        "crown": 3,
+        "glitch": 0,
+        "lattice": 2
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 104,
+      "file": "qg-104.svg",
+      "sourceHeight": 200103,
+      "sourceHash": "16295ea016cfa2d58d4f1a8681a1dcfc2eb4569b7ecc80c4a5f8a7e504b6eb15",
+      "contentSha256": "2b9f25e6a5d12acee3070a99e51bd9be8dfe2a48336fdae31e5acfd5875e0aaa",
+      "bytes": 731,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 3,
+        "eye": 5,
+        "mouth": 0,
+        "halo": 2,
+        "crown": 5,
+        "glitch": 4,
+        "lattice": 1
+      },
+      "raritySignal": 24
+    },
+    {
+      "edition": 105,
+      "file": "qg-105.svg",
+      "sourceHeight": 200104,
+      "sourceHash": "f86dff9c7e07d58237d2ef19f40bffe29493ab63a9e9b9d76a1097e344b0418b",
+      "contentSha256": "56e5d627f6093ffd1f913516cfdeba96d8948217135e7789f330ff631d2598de",
+      "bytes": 735,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 5,
+        "eye": 3,
+        "mouth": 4,
+        "halo": 2,
+        "crown": 0,
+        "glitch": 3,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 106,
+      "file": "qg-106.svg",
+      "sourceHeight": 200105,
+      "sourceHash": "731677cb530bc3912aee9ccbf9ac6fc045b3a6288ef40f5bf2b851484dfd95b4",
+      "contentSha256": "ccef4726f69207b25584d0280276e1070d4ad2e79828d507cd13632acb069b6c",
+      "bytes": 782,
+      "traits": {
+        "palette": "GHOST",
+        "shape": 5,
+        "eye": 2,
+        "mouth": 0,
+        "halo": 1,
+        "crown": 0,
+        "glitch": 4,
+        "lattice": 0
+      },
+      "raritySignal": 12
+    },
+    {
+      "edition": 107,
+      "file": "qg-107.svg",
+      "sourceHeight": 200106,
+      "sourceHash": "649f1d976552bca27b547d6dd6fc71329868220ee32bfda92026471abcac7ba5",
+      "contentSha256": "5a7fcdf1c699ee6cbd0f8ab383324ae7dce2b760eeccca01a6137dcb8404eae5",
+      "bytes": 724,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 1,
+        "eye": 4,
+        "mouth": 0,
+        "halo": 0,
+        "crown": 1,
+        "glitch": 3,
+        "lattice": 3
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 108,
+      "file": "qg-108.svg",
+      "sourceHeight": 200107,
+      "sourceHash": "009065d51013a17122ebf67276a1302746a09921b582958a5f41c66678edabf8",
+      "contentSha256": "12240c2f4f7d4ca98862d4f2fc3dbc004f03d4723ce10c70df3aa643fac5ee4a",
+      "bytes": 810,
+      "traits": {
+        "palette": "GHOST",
+        "shape": 5,
+        "eye": 5,
+        "mouth": 4,
+        "halo": 2,
+        "crown": 4,
+        "glitch": 4,
+        "lattice": 3
+      },
+      "raritySignal": 52
+    },
+    {
+      "edition": 109,
+      "file": "qg-109.svg",
+      "sourceHeight": 200108,
+      "sourceHash": "abebd2a48bc2d1eaa091c2e41f9a4638fac26403817a3d80847ca446572e7af2",
+      "contentSha256": "f4b016597f705ffb5617bc7737d5c15b90bc58ac8c6535b72b84c90fbc45d0ea",
+      "bytes": 648,
+      "traits": {
+        "palette": "VIRIDIAN",
+        "shape": 4,
+        "eye": 5,
+        "mouth": 1,
+        "halo": 0,
+        "crown": 0,
+        "glitch": 0,
+        "lattice": 3
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 110,
+      "file": "qg-110.svg",
+      "sourceHeight": 200109,
+      "sourceHash": "38b9dc1370bec9daf60c5b01c130fad513d1d6188218cec63200065e09586025",
+      "contentSha256": "c75fce6b1b696be3cdf4cfcbda15b33e33fe2ed4344f4bda83d21bd9db51fbe7",
+      "bytes": 670,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 4,
+        "eye": 3,
+        "mouth": 3,
+        "halo": 0,
+        "crown": 4,
+        "glitch": 0,
+        "lattice": 1
+      },
+      "raritySignal": 19
+    },
+    {
+      "edition": 111,
+      "file": "qg-111.svg",
+      "sourceHeight": 200110,
+      "sourceHash": "f91c5604d0957df3d64a73a5bfd64382710271f07793f82bd97ea6d039ce5b8a",
+      "contentSha256": "b4d3d7197d781e88769b4b4a723be8508633420dbbfb3a74c81913d3dde99783",
+      "bytes": 792,
+      "traits": {
+        "palette": "VIRIDIAN",
+        "shape": 5,
+        "eye": 1,
+        "mouth": 2,
+        "halo": 1,
+        "crown": 0,
+        "glitch": 2,
+        "lattice": 3
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 112,
+      "file": "qg-112.svg",
+      "sourceHeight": 200111,
+      "sourceHash": "4da74c01e86f739397578d073831b9f43d8350601b168cc39562c6c50bf408de",
+      "contentSha256": "047ac6c570564baaeea2ad3a5c1481314d621f8984a0192c8082d323317dbdb3",
+      "bytes": 631,
+      "traits": {
+        "palette": "VIRIDIAN",
+        "shape": 4,
+        "eye": 5,
+        "mouth": 4,
+        "halo": 0,
+        "crown": 2,
+        "glitch": 0,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 113,
+      "file": "qg-113.svg",
+      "sourceHeight": 200112,
+      "sourceHash": "7837f6a93989a9555cddd6380edc166d54c3c637eb7136071087244d7a9103c5",
+      "contentSha256": "1dc722093fadd95f808cc3caa7eb597c97d776e8447581f7c2e64843e661dc4c",
+      "bytes": 759,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 1,
+        "eye": 3,
+        "mouth": 0,
+        "halo": 3,
+        "crown": 4,
+        "glitch": 0,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 114,
+      "file": "qg-114.svg",
+      "sourceHeight": 200113,
+      "sourceHash": "55d7c27031f3444c6538674e39679347cdd8f176213e707b5d4c33431f3364a8",
+      "contentSha256": "e0bee6b28ffcd439cd5e9939579ecc9add4722405857b3d8632104b29e0bfce6",
+      "bytes": 900,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 4,
+        "eye": 2,
+        "mouth": 1,
+        "halo": 3,
+        "crown": 4,
+        "glitch": 2,
+        "lattice": 3
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 115,
+      "file": "qg-115.svg",
+      "sourceHeight": 200114,
+      "sourceHash": "140239c30b5846c7d2710acd716d35331a6b0e64d2448d159b20800f357f3ad8",
+      "contentSha256": "b379c00671038065a456c0bc84e15e0384fc283506e8d8d9676e1ac4b83b902d",
+      "bytes": 793,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 4,
+        "eye": 4,
+        "mouth": 1,
+        "halo": 1,
+        "crown": 1,
+        "glitch": 2,
+        "lattice": 2
+      },
+      "raritySignal": 19
+    },
+    {
+      "edition": 116,
+      "file": "qg-116.svg",
+      "sourceHeight": 200115,
+      "sourceHash": "762e2b854295f23da15bf4c1edca8277aa3b6b8b130215ee75bec9d18f6e76a0",
+      "contentSha256": "27296e910af2bc3629c6493f083408e4e557144c2055a2fdac0a283ab4dd8ba4",
+      "bytes": 912,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 2,
+        "eye": 2,
+        "mouth": 3,
+        "halo": 3,
+        "crown": 1,
+        "glitch": 4,
+        "lattice": 3
+      },
+      "raritySignal": 12
+    },
+    {
+      "edition": 117,
+      "file": "qg-117.svg",
+      "sourceHeight": 200116,
+      "sourceHash": "9bc63579dc64836033e8b834ab9c48282db54ab721ba1fdd13bd4997ebf1f9ce",
+      "contentSha256": "a5075cc09a79e595f6f8b814d505df2f794af9f5bcdb4349adc520a66543bbaa",
+      "bytes": 879,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 2,
+        "eye": 2,
+        "mouth": 4,
+        "halo": 1,
+        "crown": 3,
+        "glitch": 4,
+        "lattice": 3
+      },
+      "raritySignal": 12
+    },
+    {
+      "edition": 118,
+      "file": "qg-118.svg",
+      "sourceHeight": 200117,
+      "sourceHash": "532ea6c2fb2febacbd4f3b0e2c2c3d3b1c24cabe980c890fc8669b118d87399d",
+      "contentSha256": "86a0478499bd8e5f577fdef9fed0f281d92ca218a276d33ef6f6532be63dc6f4",
+      "bytes": 689,
+      "traits": {
+        "palette": "VIRIDIAN",
+        "shape": 2,
+        "eye": 1,
+        "mouth": 0,
+        "halo": 1,
+        "crown": 3,
+        "glitch": 1,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 119,
+      "file": "qg-119.svg",
+      "sourceHeight": 200118,
+      "sourceHash": "467026a791c036a17d11c8bff6a9ca81c368615c2b525a0e6dfa5023e0244076",
+      "contentSha256": "a2376e4b4e15b8afecdc4ca8c760b5e76f5edbcf4551b73472a0cb87153359a9",
+      "bytes": 902,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 0,
+        "eye": 3,
+        "mouth": 2,
+        "halo": 3,
+        "crown": 4,
+        "glitch": 2,
+        "lattice": 2
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 120,
+      "file": "qg-120.svg",
+      "sourceHeight": 200119,
+      "sourceHash": "d50ae6488eeb317baafb79bf8f9453c9913005d10360b983241a98df94d0e012",
+      "contentSha256": "1803ca0fe5b3720b7379b4bf7b5032244d45830726c8722215cd2da67c814492",
+      "bytes": 879,
+      "traits": {
+        "palette": "VIRIDIAN",
+        "shape": 5,
+        "eye": 5,
+        "mouth": 3,
+        "halo": 3,
+        "crown": 4,
+        "glitch": 3,
+        "lattice": 2
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 121,
+      "file": "qg-121.svg",
+      "sourceHeight": 200120,
+      "sourceHash": "40fc878863036fd079da406af925fce1990782737dc52926aadae483545314fa",
+      "contentSha256": "eb280e9bcf2909dbfec0dae68f180921d51e765b2c25c0bc6a9181936e5ba53f",
+      "bytes": 714,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 0,
+        "eye": 0,
+        "mouth": 3,
+        "halo": 1,
+        "crown": 5,
+        "glitch": 1,
+        "lattice": 0
+      },
+      "raritySignal": 17
+    },
+    {
+      "edition": 122,
+      "file": "qg-122.svg",
+      "sourceHeight": 200121,
+      "sourceHash": "44926d7c5f5da90c07fe1f9ac63a64a4da538a5c4b41a7d122b77465ffb5e6d1",
+      "contentSha256": "e8d02deccbc3dfb8312ebe4c8bfc964dad1fac3a800cbd0990cc1de1f5e8664a",
+      "bytes": 757,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 4,
+        "eye": 4,
+        "mouth": 2,
+        "halo": 3,
+        "crown": 1,
+        "glitch": 3,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 123,
+      "file": "qg-123.svg",
+      "sourceHeight": 200122,
+      "sourceHash": "52467e1147ff6f2391701949a81aa2760038b0b733e6d92e60df3bf1ed73dd8a",
+      "contentSha256": "ca4fd87bbf3772a9cc6c7795f3b00461bab3fa61075c5b3f4ac123ccb96e5c7f",
+      "bytes": 683,
+      "traits": {
+        "palette": "VIRIDIAN",
+        "shape": 0,
+        "eye": 4,
+        "mouth": 4,
+        "halo": 0,
+        "crown": 1,
+        "glitch": 2,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 124,
+      "file": "qg-124.svg",
+      "sourceHeight": 200123,
+      "sourceHash": "36c6aae903594d6e1e4d779dfb6d3be29fe1eda1f2ffa990524693c520a02f71",
+      "contentSha256": "5b0775980a3683c32dce0850003c070b3053869d3ffaf8e521ff09b68d066de9",
+      "bytes": 815,
+      "traits": {
+        "palette": "VIRIDIAN",
+        "shape": 3,
+        "eye": 1,
+        "mouth": 0,
+        "halo": 1,
+        "crown": 3,
+        "glitch": 3,
+        "lattice": 2
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 125,
+      "file": "qg-125.svg",
+      "sourceHeight": 200124,
+      "sourceHash": "edb50b16cc71ca92baae253cfaf61c734a175d3ba671227f0693d3ca63f99e07",
+      "contentSha256": "5e5351600abcc9d12aa54ffd018dc25991a9a7aa7cdf6050551310cceb80dc54",
+      "bytes": 782,
+      "traits": {
+        "palette": "VIRIDIAN",
+        "shape": 4,
+        "eye": 1,
+        "mouth": 1,
+        "halo": 3,
+        "crown": 2,
+        "glitch": 2,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 126,
+      "file": "qg-126.svg",
+      "sourceHeight": 200125,
+      "sourceHash": "b78094179ce73cdcc2f8bba87b60bb2d76cbba0e277dbcdfa9ff3198faf808f8",
+      "contentSha256": "6e49ec6b809f54125020a9c2a4c28adf85bde6ff06667b9768867040684b7857",
+      "bytes": 749,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 1,
+        "eye": 4,
+        "mouth": 5,
+        "halo": 1,
+        "crown": 3,
+        "glitch": 1,
+        "lattice": 2
+      },
+      "raritySignal": 19
+    },
+    {
+      "edition": 127,
+      "file": "qg-127.svg",
+      "sourceHeight": 200126,
+      "sourceHash": "9a7c9ab437c2439a830dadc996d29574de6f6582072c4d70bc80ed809b352bd0",
+      "contentSha256": "e5f598b34038d44012303e39a733d01471136671de58b9f7ddf7914703be29e3",
+      "bytes": 700,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 1,
+        "eye": 4,
+        "mouth": 0,
+        "halo": 0,
+        "crown": 0,
+        "glitch": 2,
+        "lattice": 2
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 128,
+      "file": "qg-128.svg",
+      "sourceHeight": 200127,
+      "sourceHash": "972271837f066b3deee531b6dcf4a08fb1dc05c31f6054335ffaa7f2371d4741",
+      "contentSha256": "47cb6b85048210790afcbe771df125004a1639b4931fd827f7aaa831d38b89b8",
+      "bytes": 685,
+      "traits": {
+        "palette": "VIRIDIAN",
+        "shape": 2,
+        "eye": 4,
+        "mouth": 1,
+        "halo": 0,
+        "crown": 4,
+        "glitch": 4,
+        "lattice": 0
+      },
+      "raritySignal": 12
+    },
+    {
+      "edition": 129,
+      "file": "qg-129.svg",
+      "sourceHeight": 200128,
+      "sourceHash": "2db74eda746e41dcbaf776b28713e63c2163db5807f1c84ffd9069f4abcd2a03",
+      "contentSha256": "74c79a3d4dfab668528fbb8e23a41775c257efbd9591dd2a3c7b98930413ac31",
+      "bytes": 719,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 3,
+        "eye": 4,
+        "mouth": 2,
+        "halo": 2,
+        "crown": 3,
+        "glitch": 4,
+        "lattice": 1
+      },
+      "raritySignal": 12
+    },
+    {
+      "edition": 130,
+      "file": "qg-130.svg",
+      "sourceHeight": 200129,
+      "sourceHash": "f583c46c7a857a466622090a70b996e0beb8ea99aeed7e4b9c9c0ec0f84df7f9",
+      "contentSha256": "e51264f518e63c53ddd1ef3ef4bef3f09157a4b95a4fea09782e41d9660d717f",
+      "bytes": 801,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 1,
+        "eye": 3,
+        "mouth": 1,
+        "halo": 1,
+        "crown": 2,
+        "glitch": 1,
+        "lattice": 3
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 131,
+      "file": "qg-131.svg",
+      "sourceHeight": 200130,
+      "sourceHash": "9f60fd3cc1b5f7b76d786d1e4b6530d8994aea6895a09123b36ddf235a4f0c03",
+      "contentSha256": "4fc16109b5ec06ba4f285fdfc48b81783fc03ff9322e0aee31e98b353e4dc220",
+      "bytes": 796,
+      "traits": {
+        "palette": "GHOST",
+        "shape": 4,
+        "eye": 2,
+        "mouth": 0,
+        "halo": 1,
+        "crown": 1,
+        "glitch": 2,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 132,
+      "file": "qg-132.svg",
+      "sourceHeight": 200131,
+      "sourceHash": "0ba8a1ba709ef8899c35643d87fa013437c8d7f2300ccab24e11d3f45eb528f5",
+      "contentSha256": "4448168d3df2de190a54389b54055eb3bd8f4ecce4161f68c89589833235c711",
+      "bytes": 726,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 3,
+        "eye": 3,
+        "mouth": 4,
+        "halo": 3,
+        "crown": 0,
+        "glitch": 0,
+        "lattice": 1
+      },
+      "raritySignal": 25
+    },
+    {
+      "edition": 133,
+      "file": "qg-133.svg",
+      "sourceHeight": 200132,
+      "sourceHash": "826175044328f87203faabaccbb75b2e353d869c076d96d28df42a9a415dd997",
+      "contentSha256": "6301fdfc6abee75ac4fc9fc936ee074a043351dc7a6d06c46374285e24d2ec8b",
+      "bytes": 684,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 5,
+        "eye": 0,
+        "mouth": 2,
+        "halo": 3,
+        "crown": 0,
+        "glitch": 0,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 134,
+      "file": "qg-134.svg",
+      "sourceHeight": 200133,
+      "sourceHash": "9f5e4b64e2dc559c9e7a993818aeba09a0d5d9ba2f8eec2166ed2fe840cf8027",
+      "contentSha256": "432628bc5ccff8daf406e44cd1dfe4b458b01267412a6cb0ef4b8d4f0f97792d",
+      "bytes": 732,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 3,
+        "eye": 1,
+        "mouth": 4,
+        "halo": 2,
+        "crown": 5,
+        "glitch": 2,
+        "lattice": 1
+      },
+      "raritySignal": 17
+    },
+    {
+      "edition": 135,
+      "file": "qg-135.svg",
+      "sourceHeight": 200134,
+      "sourceHash": "95bde5cfaeba990d85acd9608d07003c14c52c433fbc37d2e4627b5dba62b3d8",
+      "contentSha256": "f4fc026570456fb79aea15481cfd9dfe44e82c02569923c91ea001cffcdf29d9",
+      "bytes": 900,
+      "traits": {
+        "palette": "GHOST",
+        "shape": 0,
+        "eye": 3,
+        "mouth": 1,
+        "halo": 3,
+        "crown": 4,
+        "glitch": 4,
+        "lattice": 2
+      },
+      "raritySignal": 12
+    },
+    {
+      "edition": 136,
+      "file": "qg-136.svg",
+      "sourceHeight": 200135,
+      "sourceHash": "a8e31349f14451fe165c989f1f42152e0bb49e26fab5b61b2806f6a05daf8878",
+      "contentSha256": "f415bfe9c12ebf38c12de830262e84e4e4ada5f9c0184fb2b9c7f5c66e6666c4",
+      "bytes": 704,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 3,
+        "eye": 4,
+        "mouth": 1,
+        "halo": 3,
+        "crown": 1,
+        "glitch": 1,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 137,
+      "file": "qg-137.svg",
+      "sourceHeight": 200136,
+      "sourceHash": "1e71f0eabdbfb829956e9d7e8efdd6a3aa37be421decb9d494eecd3703d82f58",
+      "contentSha256": "04924c6cea48cd24c93467971c00989f1feb8385380787f56e84687208e4e230",
+      "bytes": 822,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 5,
+        "eye": 2,
+        "mouth": 0,
+        "halo": 1,
+        "crown": 2,
+        "glitch": 4,
+        "lattice": 1
+      },
+      "raritySignal": 26
+    },
+    {
+      "edition": 138,
+      "file": "qg-138.svg",
+      "sourceHeight": 200137,
+      "sourceHash": "f425654ace808620e716b40a263b07e0612cddf0f0cddfb6107daab24151fa89",
+      "contentSha256": "c42971d8afd87491671e26a924f3fa137fc684f564b2dce548fac0baa6f9fe3f",
+      "bytes": 783,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 1,
+        "eye": 5,
+        "mouth": 2,
+        "halo": 1,
+        "crown": 2,
+        "glitch": 2,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 139,
+      "file": "qg-139.svg",
+      "sourceHeight": 200138,
+      "sourceHash": "7ab38c3ce60ec267032d02d97ff22560e20a9fa95b5b2d85ad3aa13d0079e76f",
+      "contentSha256": "56fea68a8eeeaf567b79438777f773b373caf9589e03eac651eb829ba56b0450",
+      "bytes": 761,
+      "traits": {
+        "palette": "GHOST",
+        "shape": 1,
+        "eye": 1,
+        "mouth": 5,
+        "halo": 0,
+        "crown": 2,
+        "glitch": 4,
+        "lattice": 3
+      },
+      "raritySignal": 12
+    },
+    {
+      "edition": 140,
+      "file": "qg-140.svg",
+      "sourceHeight": 200139,
+      "sourceHash": "85f32de23cb5203331d779909b2416fa79dffa833eb83189d302588b3b39f1d7",
+      "contentSha256": "41751d00f401632112d5b32eac06a44370e097f7f1ebc332c6543402761149d7",
+      "bytes": 613,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 4,
+        "eye": 1,
+        "mouth": 5,
+        "halo": 0,
+        "crown": 3,
+        "glitch": 1,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 141,
+      "file": "qg-141.svg",
+      "sourceHeight": 200140,
+      "sourceHash": "9c80ab3fa72c9524b079fb06f6a7bff4acb81e66fb2844478cc1f7e20b810a74",
+      "contentSha256": "5eb026233f33acd3b14bb3e427b2addfde5b0a7741a73151f5f05b4fd4514284",
+      "bytes": 726,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 3,
+        "eye": 4,
+        "mouth": 0,
+        "halo": 0,
+        "crown": 5,
+        "glitch": 4,
+        "lattice": 3
+      },
+      "raritySignal": 24
+    },
+    {
+      "edition": 142,
+      "file": "qg-142.svg",
+      "sourceHeight": 200141,
+      "sourceHash": "0f59b6d4f07512a03b4b57ce40693fe17e468e331c05b53b01f83cca3458744f",
+      "contentSha256": "8cfc798aa26b184123e64538039e5dd90b0b34cf0b02a2156a8f14068cc2b6c1",
+      "bytes": 793,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 0,
+        "eye": 3,
+        "mouth": 2,
+        "halo": 0,
+        "crown": 5,
+        "glitch": 3,
+        "lattice": 2
+      },
+      "raritySignal": 37
+    },
+    {
+      "edition": 143,
+      "file": "qg-143.svg",
+      "sourceHeight": 200142,
+      "sourceHash": "5e06a64f001455008a1f038e0c3642d9f5ed7f57c13cd135468fb3384d36ff92",
+      "contentSha256": "295a1ec7c60e68253677c6f463cb6f65f7f4c01f71df899e73b18a48f06e9904",
+      "bytes": 878,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 3,
+        "eye": 3,
+        "mouth": 4,
+        "halo": 3,
+        "crown": 5,
+        "glitch": 2,
+        "lattice": 3
+      },
+      "raritySignal": 17
+    },
+    {
+      "edition": 144,
+      "file": "qg-144.svg",
+      "sourceHeight": 200143,
+      "sourceHash": "cbc6896c6db29cbee16768082bd41c8b81a1690d0805a295d5423793b0cad4e9",
+      "contentSha256": "6691db11e3fa623f60748f0bb6d0ef869c19f67e2498f24b20594287a27a4614",
+      "bytes": 906,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 5,
+        "eye": 2,
+        "mouth": 3,
+        "halo": 1,
+        "crown": 4,
+        "glitch": 4,
+        "lattice": 2
+      },
+      "raritySignal": 12
+    },
+    {
+      "edition": 145,
+      "file": "qg-145.svg",
+      "sourceHeight": 200144,
+      "sourceHash": "368de5867fd0c12ee0d25850b731ec57e515a72f896ab30982b21e28c5cd4c91",
+      "contentSha256": "9dc358295a48eb59ab52e2020cd48f9af97d085201b55973491ca00c2d58fddf",
+      "bytes": 678,
+      "traits": {
+        "palette": "VIRIDIAN",
+        "shape": 4,
+        "eye": 0,
+        "mouth": 4,
+        "halo": 1,
+        "crown": 5,
+        "glitch": 0,
+        "lattice": 1
+      },
+      "raritySignal": 17
+    },
+    {
+      "edition": 146,
+      "file": "qg-146.svg",
+      "sourceHeight": 200145,
+      "sourceHash": "047eefac0b4d0539e20db1fd940674cd6f8ec60371120e0c4844546c3cb92692",
+      "contentSha256": "064580d7746e9abbebb986000d9d5ccf30a26577f3084d9622b06c25023813d1",
+      "bytes": 801,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 3,
+        "eye": 2,
+        "mouth": 1,
+        "halo": 0,
+        "crown": 1,
+        "glitch": 4,
+        "lattice": 3
+      },
+      "raritySignal": 32
+    },
+    {
+      "edition": 147,
+      "file": "qg-147.svg",
+      "sourceHeight": 200146,
+      "sourceHash": "e6cc0268a5bb94efb044b5a4908f6373b6a02ae4257baca16d7bc088d0f334cf",
+      "contentSha256": "164582d4f7d2ea3a7613d465be26c883af36aceff4a794afa4629e33ec05803e",
+      "bytes": 837,
+      "traits": {
+        "palette": "VIRIDIAN",
+        "shape": 5,
+        "eye": 3,
+        "mouth": 4,
+        "halo": 2,
+        "crown": 4,
+        "glitch": 3,
+        "lattice": 2
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 148,
+      "file": "qg-148.svg",
+      "sourceHeight": 200147,
+      "sourceHash": "a203e647a6dc51dd91aa3c9ff8243caf9234f24f573c40cdb2c957f4ea2093d2",
+      "contentSha256": "ece9d8c8c7f087607e2b094737e7501db518f8a3b4af91b519999bc8b5f58b5b",
+      "bytes": 759,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 3,
+        "eye": 3,
+        "mouth": 4,
+        "halo": 2,
+        "crown": 1,
+        "glitch": 1,
+        "lattice": 2
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 149,
+      "file": "qg-149.svg",
+      "sourceHeight": 200148,
+      "sourceHash": "48ed7cc6345da4e7b34ae2fd815ff519c6d6dc2b18c709d5415186608b6f2cdc",
+      "contentSha256": "26e3b8ba29f4f71f0cb54519523946ecf76332d314d9b9338cf120b663d06734",
+      "bytes": 713,
+      "traits": {
+        "palette": "GHOST",
+        "shape": 0,
+        "eye": 1,
+        "mouth": 2,
+        "halo": 2,
+        "crown": 0,
+        "glitch": 3,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 150,
+      "file": "qg-150.svg",
+      "sourceHeight": 200149,
+      "sourceHash": "a710137a7f22c2f528fcf7c02591610a05992a30fca062aee2ef790cf576a878",
+      "contentSha256": "5872128919ca7a4cdc59c24d976e61001d0adc2d6aad64f5f40420513b8faf70",
+      "bytes": 779,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 2,
+        "eye": 5,
+        "mouth": 5,
+        "halo": 1,
+        "crown": 2,
+        "glitch": 1,
+        "lattice": 2
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 151,
+      "file": "qg-151.svg",
+      "sourceHeight": 200150,
+      "sourceHash": "1f3864620142691a96eaef2040fc4f69120c06036f9736c5c3ba9a2360d8bf45",
+      "contentSha256": "1ea0f04f71effbd81bdece568fd4b5b49257bcbcbf388649299e17d2d30302b6",
+      "bytes": 799,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 2,
+        "eye": 2,
+        "mouth": 3,
+        "halo": 2,
+        "crown": 5,
+        "glitch": 0,
+        "lattice": 2
+      },
+      "raritySignal": 17
+    },
+    {
+      "edition": 152,
+      "file": "qg-152.svg",
+      "sourceHeight": 200151,
+      "sourceHash": "58dbdabd4c42a8e0766866de61976bf29e41ca7d4334f2dc82dd9d9c39a55381",
+      "contentSha256": "28a220975d9d0c089500349f3e99d1de91b88609433bc91269a83be4ba5a3b9a",
+      "bytes": 767,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 3,
+        "eye": 5,
+        "mouth": 5,
+        "halo": 1,
+        "crown": 3,
+        "glitch": 1,
+        "lattice": 3
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 153,
+      "file": "qg-153.svg",
+      "sourceHeight": 200152,
+      "sourceHash": "e9e3893904921a85cc26f44838e345cb8b34102d1f3ca7ca9aa3a5e6ae97bd12",
+      "contentSha256": "2bbd6591559404f4cdfb4540a415624db6d868a8307c0ee52c5a0f26ebd7df0a",
+      "bytes": 727,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 2,
+        "eye": 4,
+        "mouth": 0,
+        "halo": 0,
+        "crown": 5,
+        "glitch": 2,
+        "lattice": 2
+      },
+      "raritySignal": 17
+    },
+    {
+      "edition": 154,
+      "file": "qg-154.svg",
+      "sourceHeight": 200153,
+      "sourceHash": "130b3d9414b3f600fb7732fa330da761db6bdbef107fb8c34ae1b9ed1089a1c6",
+      "contentSha256": "1a5e08214a1266998751f593e576211e3db02c696504721d02b8f0fc57629ac8",
+      "bytes": 668,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 2,
+        "eye": 0,
+        "mouth": 1,
+        "halo": 2,
+        "crown": 2,
+        "glitch": 0,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 155,
+      "file": "qg-155.svg",
+      "sourceHeight": 200154,
+      "sourceHash": "e6630327d6834f9eefd4d007b7bdf4ee56d6479f9cf82dd5451fa862ec46c975",
+      "contentSha256": "f383da1e4ca361cf059970773bd97f4a8f2e514078da4d77b1b13331fb8199a8",
+      "bytes": 836,
+      "traits": {
+        "palette": "GHOST",
+        "shape": 4,
+        "eye": 2,
+        "mouth": 2,
+        "halo": 2,
+        "crown": 5,
+        "glitch": 2,
+        "lattice": 3
+      },
+      "raritySignal": 17
+    },
+    {
+      "edition": 156,
+      "file": "qg-156.svg",
+      "sourceHeight": 200155,
+      "sourceHash": "3816396d7f4ca77254121118e988a4da14b1562fbcfbe4c182c81846a48758ca",
+      "contentSha256": "972ed3d40cd63e186dbb1767843d1ad72484d146a13f02935497530c36578711",
+      "bytes": 755,
+      "traits": {
+        "palette": "GHOST",
+        "shape": 0,
+        "eye": 3,
+        "mouth": 0,
+        "halo": 0,
+        "crown": 0,
+        "glitch": 3,
+        "lattice": 2
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 157,
+      "file": "qg-157.svg",
+      "sourceHeight": 200156,
+      "sourceHash": "65922669a58bd07463eb76f394046a03193e4ffe32003c07a483403fc4fa3ff5",
+      "contentSha256": "62f84978b1f542935d294c6707375d7eabb7326e93652d2879c75dbf736efd96",
+      "bytes": 778,
+      "traits": {
+        "palette": "VIRIDIAN",
+        "shape": 4,
+        "eye": 3,
+        "mouth": 1,
+        "halo": 1,
+        "crown": 1,
+        "glitch": 3,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 158,
+      "file": "qg-158.svg",
+      "sourceHeight": 200157,
+      "sourceHash": "4529a0e2d12ae8b24279b6ed7dcec9991e397874eb21a28882d3b51824533899",
+      "contentSha256": "e2f0d78604b985a3eab8b28f6ba1f1804c0c9eab2f988ac0bb7fb8fe3b433d55",
+      "bytes": 803,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 4,
+        "eye": 4,
+        "mouth": 3,
+        "halo": 3,
+        "crown": 0,
+        "glitch": 2,
+        "lattice": 3
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 159,
+      "file": "qg-159.svg",
+      "sourceHeight": 200158,
+      "sourceHash": "49637801a67d98da60df6f73e0197d30884f93c0086b3e80a9ac9e952698c40f",
+      "contentSha256": "beb677747f3e79f08740cbff3ee4e23160f524c5f74af6160a31312ee4d41d7b",
+      "bytes": 708,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 1,
+        "eye": 4,
+        "mouth": 5,
+        "halo": 3,
+        "crown": 1,
+        "glitch": 0,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 160,
+      "file": "qg-160.svg",
+      "sourceHeight": 200159,
+      "sourceHash": "b530539427e8022d3ee9149528b033d6c703908151bbfa4c6150d5f4076ae946",
+      "contentSha256": "bcc7a716810522829ae26ac48920665e95ae9fe14ce23397e49bad9a11737a9a",
+      "bytes": 815,
+      "traits": {
+        "palette": "GHOST",
+        "shape": 1,
+        "eye": 0,
+        "mouth": 2,
+        "halo": 1,
+        "crown": 5,
+        "glitch": 4,
+        "lattice": 3
+      },
+      "raritySignal": 24
+    },
+    {
+      "edition": 161,
+      "file": "qg-161.svg",
+      "sourceHeight": 200160,
+      "sourceHash": "fac5a5d3989dd0ed2a31bc6e930c0e23608e4b88bff95c69975c6dbc03280899",
+      "contentSha256": "227d6ba1450fb2646f8fdbd4a5befdb9d466c1e14aec0bd34e06537bee4d7677",
+      "bytes": 715,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 0,
+        "eye": 5,
+        "mouth": 1,
+        "halo": 1,
+        "crown": 3,
+        "glitch": 1,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 162,
+      "file": "qg-162.svg",
+      "sourceHeight": 200161,
+      "sourceHash": "87652a9e3a76e9cb81a068df0a24a1002eea82a3f29d5f58f62caaf5645a8aae",
+      "contentSha256": "2f4398ed14d8d4b75162bdaf41c3827ce201632a596e0b8a540adc6baab5713e",
+      "bytes": 750,
+      "traits": {
+        "palette": "GHOST",
+        "shape": 3,
+        "eye": 0,
+        "mouth": 1,
+        "halo": 1,
+        "crown": 3,
+        "glitch": 1,
+        "lattice": 2
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 163,
+      "file": "qg-163.svg",
+      "sourceHeight": 200162,
+      "sourceHash": "1fbc6088f3c375fb7758e3f401a2a0ec9b0f2dd550b30fe6da2c9f399fcebfdd",
+      "contentSha256": "d670bcd3254033b63abd457b21f60db09e2b9f641f71a0cee2aaa2e989284c1e",
+      "bytes": 758,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 0,
+        "eye": 1,
+        "mouth": 4,
+        "halo": 0,
+        "crown": 3,
+        "glitch": 2,
+        "lattice": 3
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 164,
+      "file": "qg-164.svg",
+      "sourceHeight": 200163,
+      "sourceHash": "4123e466d3223b65181b3b40e667d1d659c804a81df0809fc623b5fda0e86db0",
+      "contentSha256": "e63ccb89973c9a9710a46e15928dbb73fd23056ca1bd4e9e27f4d9942f639796",
+      "bytes": 725,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 2,
+        "eye": 2,
+        "mouth": 2,
+        "halo": 2,
+        "crown": 3,
+        "glitch": 1,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 165,
+      "file": "qg-165.svg",
+      "sourceHeight": 200164,
+      "sourceHash": "32b43878da6dec5b9742c2958e9b0c9f085c448861b1c4b5a3c164327d4c8589",
+      "contentSha256": "2887ee8b69aeaa466bc24131f4baf1ada3f956e84d558c9f1c7342f2c267655e",
+      "bytes": 752,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 0,
+        "eye": 1,
+        "mouth": 1,
+        "halo": 2,
+        "crown": 4,
+        "glitch": 3,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 166,
+      "file": "qg-166.svg",
+      "sourceHeight": 200165,
+      "sourceHash": "40a7f37fff1cef5a3e8f029f0e50c769900e2d15c3763bbbf28b3a75dfbb991a",
+      "contentSha256": "541943d58ad46fe9e4e1dbbe9018681834b3d56954a84e595ff77b37be548ac3",
+      "bytes": 700,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 2,
+        "eye": 1,
+        "mouth": 5,
+        "halo": 2,
+        "crown": 0,
+        "glitch": 0,
+        "lattice": 2
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 167,
+      "file": "qg-167.svg",
+      "sourceHeight": 200166,
+      "sourceHash": "3385646e979aee3618761ca1bd9def81448033d8e39e4dab2a9a5e05bdbcf544",
+      "contentSha256": "f7ed5a5b924893309e2d1492cc089c52422ea65fabe8b5b897d0409b315997bc",
+      "bytes": 611,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 5,
+        "eye": 4,
+        "mouth": 4,
+        "halo": 0,
+        "crown": 5,
+        "glitch": 1,
+        "lattice": 1
+      },
+      "raritySignal": 17
+    },
+    {
+      "edition": 168,
+      "file": "qg-168.svg",
+      "sourceHeight": 200167,
+      "sourceHash": "dbd76ed88ddd944466f31bd6b47ebbc145fa532765bad63816c4819a6f6165f0",
+      "contentSha256": "6f54ff703590c54d2e3507ed59277ee0508332266ce3bb037101c8d5f1f0a91a",
+      "bytes": 785,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 4,
+        "eye": 3,
+        "mouth": 3,
+        "halo": 3,
+        "crown": 0,
+        "glitch": 0,
+        "lattice": 3
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 169,
+      "file": "qg-169.svg",
+      "sourceHeight": 200168,
+      "sourceHash": "1652c4d7ce81922e29047ec9b705973929862166d971e71aeb4c83c661bc34d6",
+      "contentSha256": "3fe494cc4fe085ed3a9c32269070090238878b703f02d9e018b817936f300583",
+      "bytes": 685,
+      "traits": {
+        "palette": "VIRIDIAN",
+        "shape": 5,
+        "eye": 4,
+        "mouth": 4,
+        "halo": 1,
+        "crown": 3,
+        "glitch": 0,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 170,
+      "file": "qg-170.svg",
+      "sourceHeight": 200169,
+      "sourceHash": "8ae3b205cb8426fb9bd25d757abdfe6e36e936bbfd9601557414528efb662008",
+      "contentSha256": "4c2c9806220a48a3322b8d3a751774d0bd1e268cb440a2f8c1b7873f64bfde2c",
+      "bytes": 689,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 0,
+        "eye": 1,
+        "mouth": 4,
+        "halo": 2,
+        "crown": 2,
+        "glitch": 0,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 171,
+      "file": "qg-171.svg",
+      "sourceHeight": 200170,
+      "sourceHash": "d8797dfdbbc25dd57d57c8ff68f7a93d1bc4320c008e86c0f1225d16086d23fc",
+      "contentSha256": "b199a731195f675b9bb1bc8a4cf6f23d9438256c9b083f24584072bc461aaa4d",
+      "bytes": 683,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 1,
+        "eye": 0,
+        "mouth": 5,
+        "halo": 0,
+        "crown": 3,
+        "glitch": 4,
+        "lattice": 0
+      },
+      "raritySignal": 12
+    },
+    {
+      "edition": 172,
+      "file": "qg-172.svg",
+      "sourceHeight": 200171,
+      "sourceHash": "05bd0b24521eb0246fc8493fce5a95977fbb9037d910c9dd2ae008236dba2276",
+      "contentSha256": "845f28a181878868ad313991eda57b58372a20ad7610f3de99adaf628e81b8ba",
+      "bytes": 726,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 2,
+        "eye": 5,
+        "mouth": 4,
+        "halo": 0,
+        "crown": 0,
+        "glitch": 4,
+        "lattice": 3
+      },
+      "raritySignal": 32
+    },
+    {
+      "edition": 173,
+      "file": "qg-173.svg",
+      "sourceHeight": 200172,
+      "sourceHash": "e95ba6095c5b067ebc1b728ea6bee49e0f750344f532313b5538ff305399bc79",
+      "contentSha256": "aebe99e181ccae4f76ac88e951611d8c7910e3acfe75aea99cea9642055af89a",
+      "bytes": 843,
+      "traits": {
+        "palette": "GHOST",
+        "shape": 2,
+        "eye": 2,
+        "mouth": 2,
+        "halo": 3,
+        "crown": 5,
+        "glitch": 4,
+        "lattice": 1
+      },
+      "raritySignal": 24
+    },
+    {
+      "edition": 174,
+      "file": "qg-174.svg",
+      "sourceHeight": 200173,
+      "sourceHash": "7ba16bd32877a80ac5b6eec32096cd00cd2574fa7fc2371194d6b6fb1cbc261a",
+      "contentSha256": "ab6e4749c4e533e7efdd83a45456281711248677c2aad0be17ea73448a6d0161",
+      "bytes": 838,
+      "traits": {
+        "palette": "GHOST",
+        "shape": 3,
+        "eye": 1,
+        "mouth": 0,
+        "halo": 3,
+        "crown": 3,
+        "glitch": 3,
+        "lattice": 2
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 175,
+      "file": "qg-175.svg",
+      "sourceHeight": 200174,
+      "sourceHash": "c390e6d5efa88fd139b126f0c10faec4e7e9e19a6fcb81a9460b40eba3d187e6",
+      "contentSha256": "549710e8c3ec22a70b5b56e283ff1f5a4ca5013795a3515d6855e78343fa390e",
+      "bytes": 737,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 5,
+        "eye": 5,
+        "mouth": 5,
+        "halo": 2,
+        "crown": 3,
+        "glitch": 1,
+        "lattice": 2
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 176,
+      "file": "qg-176.svg",
+      "sourceHeight": 200175,
+      "sourceHash": "109bc7dae480a2fcacd64755c931b1ee2c178cd142525fbedaecc6742fb2e286",
+      "contentSha256": "c2a52700fe43c982d9b40b2a73fbda9b4fa1da2fd7c4f605d93df02dcbee7f41",
+      "bytes": 835,
+      "traits": {
+        "palette": "GHOST",
+        "shape": 2,
+        "eye": 1,
+        "mouth": 0,
+        "halo": 3,
+        "crown": 3,
+        "glitch": 3,
+        "lattice": 3
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 177,
+      "file": "qg-177.svg",
+      "sourceHeight": 200176,
+      "sourceHash": "7b55f360843dccf0ecba860a44a183386450be7f8ca05766882a3a91e91e2a3c",
+      "contentSha256": "76962839c99defc1003568c39eaf49dcc6ce4e01efe62469c43faabbcbf946ef",
+      "bytes": 831,
+      "traits": {
+        "palette": "VIRIDIAN",
+        "shape": 3,
+        "eye": 4,
+        "mouth": 2,
+        "halo": 3,
+        "crown": 1,
+        "glitch": 2,
+        "lattice": 2
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 178,
+      "file": "qg-178.svg",
+      "sourceHeight": 200177,
+      "sourceHash": "099c730d14f6dff7d9744dc6853910df21647f7ecccbf61b20c53343c876c821",
+      "contentSha256": "397bb69daee255bbce923a71a010798558a11ea01f397c2710d3833369e4f622",
+      "bytes": 691,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 1,
+        "eye": 1,
+        "mouth": 5,
+        "halo": 0,
+        "crown": 3,
+        "glitch": 2,
+        "lattice": 0
+      },
+      "raritySignal": 25
+    },
+    {
+      "edition": 179,
+      "file": "qg-179.svg",
+      "sourceHeight": 200178,
+      "sourceHash": "9461ec3466ea6b526c2bcb1307298b07aec3ca23c9943d380c6bc53ca4f5c21f",
+      "contentSha256": "1bcfe9932a4eca6e3cabe917baf0847f6465c94ab288c9ed4f36c797e5af23f4",
+      "bytes": 784,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 3,
+        "eye": 1,
+        "mouth": 0,
+        "halo": 1,
+        "crown": 0,
+        "glitch": 2,
+        "lattice": 3
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 180,
+      "file": "qg-180.svg",
+      "sourceHeight": 200179,
+      "sourceHash": "c6d08bcec7e670580e983c336b96d4c3918c628bdf420a78447522bfa2d1ffcb",
+      "contentSha256": "87244d4b44c023886832511b90694cd3700bca2e051d73b35b4e9d8e831a400b",
+      "bytes": 758,
+      "traits": {
+        "palette": "GHOST",
+        "shape": 5,
+        "eye": 5,
+        "mouth": 3,
+        "halo": 2,
+        "crown": 2,
+        "glitch": 0,
+        "lattice": 3
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 181,
+      "file": "qg-181.svg",
+      "sourceHeight": 200180,
+      "sourceHash": "2e70031320fd5347c63871d81e8500f33237164257a9a55fc2339c20a9831242",
+      "contentSha256": "5bde82b839e01d9e3d48b34db94f701db4a57a61788c86e4c01c13427dd9ed76",
+      "bytes": 815,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 1,
+        "eye": 5,
+        "mouth": 3,
+        "halo": 2,
+        "crown": 3,
+        "glitch": 4,
+        "lattice": 2
+      },
+      "raritySignal": 26
+    },
+    {
+      "edition": 182,
+      "file": "qg-182.svg",
+      "sourceHeight": 200181,
+      "sourceHash": "de357b8c2dac68ae6088b09398d46c109f48a194dd51ae39115ddc9e8491107f",
+      "contentSha256": "db8ee2b8d06bc3cc2cb648123fc543b7e5a6a8d9f0ceb5022578899c19b8a6ac",
+      "bytes": 713,
+      "traits": {
+        "palette": "GHOST",
+        "shape": 2,
+        "eye": 2,
+        "mouth": 0,
+        "halo": 2,
+        "crown": 1,
+        "glitch": 0,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 183,
+      "file": "qg-183.svg",
+      "sourceHeight": 200182,
+      "sourceHash": "61900fc17479e9aaba36df69b4f6c62c31878b073ad2cca601e1fe20a6f966d2",
+      "contentSha256": "61f180f0ece21b0e1fe1453a65db8e7d208ec54f7ca9b6c916cd6dfa23174952",
+      "bytes": 767,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 1,
+        "eye": 5,
+        "mouth": 5,
+        "halo": 3,
+        "crown": 0,
+        "glitch": 3,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 184,
+      "file": "qg-184.svg",
+      "sourceHeight": 200183,
+      "sourceHash": "9fe51bd73fbc30d8096a1e071a0340c0316e7ac5d5aec1a168cbb512b832bfd0",
+      "contentSha256": "56e935a74aad15ba59774cdb19ddd5d665d422338ad3b7fc2ef686f3294955b2",
+      "bytes": 807,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 2,
+        "eye": 3,
+        "mouth": 4,
+        "halo": 1,
+        "crown": 4,
+        "glitch": 3,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 185,
+      "file": "qg-185.svg",
+      "sourceHeight": 200184,
+      "sourceHash": "bcd582050c044ca493e6b198b52e20d5da979c279206e13e4191c66fb28aaefb",
+      "contentSha256": "dae6f015d2c8d78da9eedfe396e65c658c3bf089333dea354810cdf855577b48",
+      "bytes": 722,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 0,
+        "eye": 0,
+        "mouth": 1,
+        "halo": 3,
+        "crown": 3,
+        "glitch": 0,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 186,
+      "file": "qg-186.svg",
+      "sourceHeight": 200185,
+      "sourceHash": "56538b1c51384a74dd365275dc64287531a20ce73206db226253cc6b27dbab02",
+      "contentSha256": "6b6048ce7dd09e91a24732906cd07f054c6415db5a5784c89d1815c9eb9ff43e",
+      "bytes": 787,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 2,
+        "eye": 0,
+        "mouth": 3,
+        "halo": 3,
+        "crown": 1,
+        "glitch": 4,
+        "lattice": 1
+      },
+      "raritySignal": 12
+    },
+    {
+      "edition": 187,
+      "file": "qg-187.svg",
+      "sourceHeight": 200186,
+      "sourceHash": "775f76d844e3b8eb7d0c37eb58f6b882c79921de3da1dd3b775d2503ae49391b",
+      "contentSha256": "6956bfafad75a39333393fa144a1b67b66017b1b112a571db6071297df44ddd9",
+      "bytes": 742,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 1,
+        "eye": 1,
+        "mouth": 1,
+        "halo": 2,
+        "crown": 2,
+        "glitch": 4,
+        "lattice": 1
+      },
+      "raritySignal": 12
+    },
+    {
+      "edition": 188,
+      "file": "qg-188.svg",
+      "sourceHeight": 200187,
+      "sourceHash": "177e9e921d5d129784b872a65efa62c8ce96a41d30b17c0af7c0b34cd973dad0",
+      "contentSha256": "41eb4aa68c5e39f3251628b613d279b6870d95337d2d806cb5c1a8dc70b21a96",
+      "bytes": 761,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 1,
+        "eye": 2,
+        "mouth": 3,
+        "halo": 0,
+        "crown": 5,
+        "glitch": 2,
+        "lattice": 1
+      },
+      "raritySignal": 17
+    },
+    {
+      "edition": 189,
+      "file": "qg-189.svg",
+      "sourceHeight": 200188,
+      "sourceHash": "c82bdf66646e31e8cd0e9d52f83f037f06d9678a33ec13a9bdc811a378d5ca16",
+      "contentSha256": "e61bd11c5257b0d0dacaeba1c89c4707ff4ccc6a7a6469c691744b8f29bb2ba2",
+      "bytes": 763,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 1,
+        "eye": 2,
+        "mouth": 5,
+        "halo": 2,
+        "crown": 0,
+        "glitch": 4,
+        "lattice": 0
+      },
+      "raritySignal": 12
+    },
+    {
+      "edition": 190,
+      "file": "qg-190.svg",
+      "sourceHeight": 200189,
+      "sourceHash": "89a19089d2d6ce13f2995441d40fb50da025a347b873e750bc619dc8464024de",
+      "contentSha256": "a410a2ef533331f89d168c6a59276065ee40e414812059ff1cb646a9f7fd21bf",
+      "bytes": 846,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 1,
+        "eye": 5,
+        "mouth": 5,
+        "halo": 1,
+        "crown": 4,
+        "glitch": 4,
+        "lattice": 2
+      },
+      "raritySignal": 12
+    },
+    {
+      "edition": 191,
+      "file": "qg-191.svg",
+      "sourceHeight": 200190,
+      "sourceHash": "0f63690c06b18bf65846bfaa0dff020ad1af766d17bcec0660d89daf32c3e818",
+      "contentSha256": "394de226444b284d0dfb31e2d5863249a59dc09874adea98714916b606a8fb0b",
+      "bytes": 762,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 5,
+        "eye": 1,
+        "mouth": 2,
+        "halo": 1,
+        "crown": 3,
+        "glitch": 2,
+        "lattice": 0
+      },
+      "raritySignal": 25
+    },
+    {
+      "edition": 192,
+      "file": "qg-192.svg",
+      "sourceHeight": 200191,
+      "sourceHash": "5e889d91ee026066928d1ba7a64f57fb650c58f2d00f59c2932379809c4a7398",
+      "contentSha256": "ab8fd6f1d557555a99fed1f6c15c6875aaf3f35fc2f89f654f313a358c0e2985",
+      "bytes": 776,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 4,
+        "eye": 0,
+        "mouth": 2,
+        "halo": 3,
+        "crown": 2,
+        "glitch": 3,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 193,
+      "file": "qg-193.svg",
+      "sourceHeight": 200192,
+      "sourceHash": "1e2822f9378ba91b09ee20d82828db40f36ab5ddc41c771ce42d000906cb729c",
+      "contentSha256": "aa136d962785c4ac1723efb1c8825de430ae3c9978274406ab621ccab2c23dc4",
+      "bytes": 813,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 4,
+        "eye": 1,
+        "mouth": 0,
+        "halo": 1,
+        "crown": 2,
+        "glitch": 4,
+        "lattice": 2
+      },
+      "raritySignal": 12
+    },
+    {
+      "edition": 194,
+      "file": "qg-194.svg",
+      "sourceHeight": 200193,
+      "sourceHash": "b28436fcfb486f30ef9e4a828ac593edcb5abd2d148ae14dacdb6979f33060cb",
+      "contentSha256": "fc354c2d93d3b3109369cb72fe18956a92eb082bed8cf7db8e84890d13ca7a33",
+      "bytes": 800,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 1,
+        "eye": 5,
+        "mouth": 5,
+        "halo": 2,
+        "crown": 1,
+        "glitch": 3,
+        "lattice": 2
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 195,
+      "file": "qg-195.svg",
+      "sourceHeight": 200194,
+      "sourceHash": "4f3bc085cd1ec9161996b72e590dcbc00933331799d6544a09ff1cbd2c18c8d6",
+      "contentSha256": "c07b79945aed09421866344c295eb4ccbd3cdaaed4c1cc802d6308444ebb9191",
+      "bytes": 767,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 4,
+        "eye": 4,
+        "mouth": 4,
+        "halo": 2,
+        "crown": 3,
+        "glitch": 4,
+        "lattice": 2
+      },
+      "raritySignal": 12
+    },
+    {
+      "edition": 196,
+      "file": "qg-196.svg",
+      "sourceHeight": 200195,
+      "sourceHash": "64761c0dca317c5fac6c39251490981e09b8357d30575e771ba2e2932fd5bf9f",
+      "contentSha256": "29cd7f5f1f5ba40da45a67f7e99d6f32510b873139ac01e4d85d29d3bec2689e",
+      "bytes": 806,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 4,
+        "eye": 2,
+        "mouth": 0,
+        "halo": 1,
+        "crown": 4,
+        "glitch": 1,
+        "lattice": 3
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 197,
+      "file": "qg-197.svg",
+      "sourceHeight": 200196,
+      "sourceHash": "a2032218e4787e76f67d072783399945b4efacab50413aa13e1d4ebe2789484b",
+      "contentSha256": "62265a008e884f35168169f114f0dfea8e072187ee395ea7f1c837f2d8122574",
+      "bytes": 840,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 5,
+        "eye": 5,
+        "mouth": 2,
+        "halo": 1,
+        "crown": 2,
+        "glitch": 3,
+        "lattice": 3
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 198,
+      "file": "qg-198.svg",
+      "sourceHeight": 200197,
+      "sourceHash": "bc07af979c9857545bd0dfbeae7429846ce338f564ceddd5e64e2a062af0600e",
+      "contentSha256": "823737918f4e2d5fda5897af8061c051db8d3e115a436dcd9e85c9ad0a0041c7",
+      "bytes": 719,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 5,
+        "eye": 3,
+        "mouth": 0,
+        "halo": 1,
+        "crown": 1,
+        "glitch": 0,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 199,
+      "file": "qg-199.svg",
+      "sourceHeight": 200198,
+      "sourceHash": "a358b623520915501d41f420ab8dc49f96a8ffcdf302cce10beca6e277c9f4cc",
+      "contentSha256": "6d755bc58e7537a0aa5c58cb40d30228879e829e63def720a0bebeadcbcc1121",
+      "bytes": 726,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 2,
+        "eye": 5,
+        "mouth": 4,
+        "halo": 0,
+        "crown": 0,
+        "glitch": 4,
+        "lattice": 3
+      },
+      "raritySignal": 12
+    },
+    {
+      "edition": 200,
+      "file": "qg-200.svg",
+      "sourceHeight": 200199,
+      "sourceHash": "1a459153266c74cb86bd9260359d426dc852d33341002eec8bb807842380fe4b",
+      "contentSha256": "31c71b69a415cd7f136baf2b80027c182d4735c0b10ba0f27061c52b760949db",
+      "bytes": 836,
+      "traits": {
+        "palette": "GHOST",
+        "shape": 4,
+        "eye": 2,
+        "mouth": 1,
+        "halo": 2,
+        "crown": 3,
+        "glitch": 2,
+        "lattice": 2
+      },
+      "raritySignal": 19
+    },
+    {
+      "edition": 201,
+      "file": "qg-201.svg",
+      "sourceHeight": 200200,
+      "sourceHash": "d5fc92ed29721067a85b63a00743266da64599aae60bed8996cf8e268010d6c2",
+      "contentSha256": "346b551e512a6d48607ce7e87bd603c05dd8d655c6c4e56226792111b61cec3d",
+      "bytes": 715,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 2,
+        "eye": 0,
+        "mouth": 1,
+        "halo": 2,
+        "crown": 1,
+        "glitch": 1,
+        "lattice": 2
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 202,
+      "file": "qg-202.svg",
+      "sourceHeight": 200201,
+      "sourceHash": "a7dbea453e8b86773edd2fd7da854236791f361e0dff71174cc69753e8666041",
+      "contentSha256": "9882f164ca2bd83fac20d759d46a50f506b6f3c43c8a223ccd2793aba2f69890",
+      "bytes": 758,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 5,
+        "eye": 5,
+        "mouth": 0,
+        "halo": 0,
+        "crown": 4,
+        "glitch": 4,
+        "lattice": 3
+      },
+      "raritySignal": 12
+    },
+    {
+      "edition": 203,
+      "file": "qg-203.svg",
+      "sourceHeight": 200202,
+      "sourceHash": "6d006dcebde2252708735cf7bf8c7bad6462f83b0e03489f91ce5617e088c825",
+      "contentSha256": "908090d0945a6b54d0428361bd9651f892c892115dee23586612982169976797",
+      "bytes": 666,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 2,
+        "eye": 5,
+        "mouth": 0,
+        "halo": 2,
+        "crown": 3,
+        "glitch": 1,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 204,
+      "file": "qg-204.svg",
+      "sourceHeight": 200203,
+      "sourceHash": "3ed942493b093136bd1e1d731a16ead84d8d49669512fc34062aa4825a17adad",
+      "contentSha256": "763ed734c72d3ae45932e352001a69bd6e371aa703639e1e61bde2ab47ffa2a5",
+      "bytes": 823,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 1,
+        "eye": 4,
+        "mouth": 4,
+        "halo": 1,
+        "crown": 2,
+        "glitch": 4,
+        "lattice": 2
+      },
+      "raritySignal": 12
+    },
+    {
+      "edition": 205,
+      "file": "qg-205.svg",
+      "sourceHeight": 200204,
+      "sourceHash": "6a9c2d3622a38c2226f5f21096399735f7f423fb30bd53c4f60902d7bee8fd82",
+      "contentSha256": "335b7ff94736c144410b0ae928d0eea98510b4ee04d5b3ab68d57530d7d3c8ac",
+      "bytes": 718,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 2,
+        "eye": 3,
+        "mouth": 4,
+        "halo": 0,
+        "crown": 1,
+        "glitch": 4,
+        "lattice": 0
+      },
+      "raritySignal": 12
+    },
+    {
+      "edition": 206,
+      "file": "qg-206.svg",
+      "sourceHeight": 200205,
+      "sourceHash": "83a93295be5fd560854bab4d32849b1ff9a3ffd81cf325da447281606ccee073",
+      "contentSha256": "9d1919d32eb8558ba686434450649d9ce048f249020f8a42181fe70fb68263a7",
+      "bytes": 825,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 5,
+        "eye": 1,
+        "mouth": 0,
+        "halo": 1,
+        "crown": 2,
+        "glitch": 2,
+        "lattice": 2
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 207,
+      "file": "qg-207.svg",
+      "sourceHeight": 200206,
+      "sourceHash": "33e1b691a8d90dc717a64fb5e539dbb3acc1e48cd48d7947b277cf4c9fe0fb7f",
+      "contentSha256": "6b3dae80b330d4cfd6914c94522bdcca089fa4c494074362ffbbc022bd6e6fcd",
+      "bytes": 848,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 5,
+        "eye": 2,
+        "mouth": 2,
+        "halo": 2,
+        "crown": 3,
+        "glitch": 3,
+        "lattice": 3
+      },
+      "raritySignal": 19
+    },
+    {
+      "edition": 208,
+      "file": "qg-208.svg",
+      "sourceHeight": 200207,
+      "sourceHash": "5e465a0fd3aa2b48d27db3a91a501efacdc3b2a569fb63e70c0e1c614e30e9b9",
+      "contentSha256": "88f912dbcef4767227af86557778f2df096aa05c9aceb8679126bfc5d43a55e4",
+      "bytes": 794,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 3,
+        "eye": 3,
+        "mouth": 5,
+        "halo": 0,
+        "crown": 4,
+        "glitch": 4,
+        "lattice": 3
+      },
+      "raritySignal": 12
+    },
+    {
+      "edition": 209,
+      "file": "qg-209.svg",
+      "sourceHeight": 200208,
+      "sourceHash": "d2eed04cfe3ab93cbe67158d882b0903b8d666034bbab7e5c0ea8870d0f33748",
+      "contentSha256": "dbe764961225586cef815d2efb894d2280a70f7be01304b32a7d84bedb042866",
+      "bytes": 793,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 1,
+        "eye": 0,
+        "mouth": 1,
+        "halo": 2,
+        "crown": 2,
+        "glitch": 2,
+        "lattice": 3
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 210,
+      "file": "qg-210.svg",
+      "sourceHeight": 200209,
+      "sourceHash": "921ac02912f452d9b9e9848f5537de2451b8dde55ff4d1a9f14ff97829a5661d",
+      "contentSha256": "6ba09e3d6acc7cd8af0a9a0fbfcbe3b609ad667fa5faa50dd7b47d15e2674d16",
+      "bytes": 723,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 0,
+        "eye": 0,
+        "mouth": 2,
+        "halo": 0,
+        "crown": 0,
+        "glitch": 3,
+        "lattice": 2
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 211,
+      "file": "qg-211.svg",
+      "sourceHeight": 200210,
+      "sourceHash": "8dae004e4522910d9c3a94cd718b923bccd60634d2424cd86fb71f230791d396",
+      "contentSha256": "279072ba2f564b4bffaf47b7e11574178d5065eb3cefba12c688e08ad69a8862",
+      "bytes": 738,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 2,
+        "eye": 0,
+        "mouth": 3,
+        "halo": 3,
+        "crown": 4,
+        "glitch": 0,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 212,
+      "file": "qg-212.svg",
+      "sourceHeight": 200211,
+      "sourceHash": "7eea804943bb053502e94f5ac7b81ca25270b7e35b9f71a760848b4f2ad03cfa",
+      "contentSha256": "419ca8eefe5e3f00f9e79564ea802455849b0806be56ea39aef6b80ad3f5a9b1",
+      "bytes": 678,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 5,
+        "eye": 1,
+        "mouth": 2,
+        "halo": 2,
+        "crown": 2,
+        "glitch": 1,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 213,
+      "file": "qg-213.svg",
+      "sourceHeight": 200212,
+      "sourceHash": "b5144f83d4399602a9779c485c96b46ce2e919d1c46b84287784ced416e03830",
+      "contentSha256": "d750f0c920db95f4a5c8e82beb7878cd51edaa2d78a066cb57fc2eaf2cbb6b18",
+      "bytes": 703,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 3,
+        "eye": 1,
+        "mouth": 2,
+        "halo": 2,
+        "crown": 0,
+        "glitch": 3,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 214,
+      "file": "qg-214.svg",
+      "sourceHeight": 200213,
+      "sourceHash": "bd8e5a4dacb8a7f969b5ee3f176aa93bf712aeeb9aec982475fdf87cbf888fde",
+      "contentSha256": "d98bf3e8480a1164b7ea14dd161d64f0ff5981874d04bc8db2a15cebb53c07ea",
+      "bytes": 772,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 0,
+        "eye": 1,
+        "mouth": 0,
+        "halo": 1,
+        "crown": 2,
+        "glitch": 1,
+        "lattice": 2
+      },
+      "raritySignal": 19
+    },
+    {
+      "edition": 215,
+      "file": "qg-215.svg",
+      "sourceHeight": 200214,
+      "sourceHash": "f3ee70d558ca3481c2568f10fec2f528cc6485b27389d5ff6111d690fedd13df",
+      "contentSha256": "8c5fa2f8302873308429337afc35c398da64ef9e850c7bda5d2bddf0b80429ff",
+      "bytes": 610,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 0,
+        "eye": 4,
+        "mouth": 0,
+        "halo": 0,
+        "crown": 1,
+        "glitch": 0,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 216,
+      "file": "qg-216.svg",
+      "sourceHeight": 200215,
+      "sourceHash": "793d1b19f8b2e3216cbc2165492e2cf7dc1ab54000784065eca30b0cce94c228",
+      "contentSha256": "66b8b08e94f21d37e1d33f65316520ecea5fc0a3989fc67ffe0611670443c768",
+      "bytes": 813,
+      "traits": {
+        "palette": "VIRIDIAN",
+        "shape": 3,
+        "eye": 0,
+        "mouth": 4,
+        "halo": 1,
+        "crown": 1,
+        "glitch": 3,
+        "lattice": 2
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 217,
+      "file": "qg-217.svg",
+      "sourceHeight": 200216,
+      "sourceHash": "efd6c0f9b044abfbca35822ad294b58df5246c8b5fa0b56c4d4dd1f73071da26",
+      "contentSha256": "5a389932230181c12902aed8a4f5bcec4bf07e5af8bb89ccfad42c0c56132f6f",
+      "bytes": 848,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 5,
+        "eye": 3,
+        "mouth": 3,
+        "halo": 2,
+        "crown": 4,
+        "glitch": 3,
+        "lattice": 3
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 218,
+      "file": "qg-218.svg",
+      "sourceHeight": 200217,
+      "sourceHash": "34ace9246c396d3e8cba7a187d38287d08fc7d30fca8cd02bfc900986a09bc2f",
+      "contentSha256": "1150824d1c9eaa1002ba5dfb80b40679eb7b814ae6df360d593c5a753dc7b11d",
+      "bytes": 693,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 5,
+        "eye": 0,
+        "mouth": 5,
+        "halo": 0,
+        "crown": 4,
+        "glitch": 4,
+        "lattice": 0
+      },
+      "raritySignal": 12
+    },
+    {
+      "edition": 219,
+      "file": "qg-219.svg",
+      "sourceHeight": 200218,
+      "sourceHash": "eb745b2e7949555a31c968ff3e5d47cd0b53d7d267c59d3bc90ec111693b9a87",
+      "contentSha256": "345357b54be1a4c6338f88b5acb2634cea1bcddcba7f3efb627823c5af93e67e",
+      "bytes": 765,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 0,
+        "eye": 0,
+        "mouth": 2,
+        "halo": 1,
+        "crown": 3,
+        "glitch": 4,
+        "lattice": 0
+      },
+      "raritySignal": 12
+    },
+    {
+      "edition": 220,
+      "file": "qg-220.svg",
+      "sourceHeight": 200219,
+      "sourceHash": "ddeaf6bbe8682216878f7216d5aef0b487b456618e562004050dfe8bf432123a",
+      "contentSha256": "77422db30c3f6e0523b7767c952dbf40f941597ff4d876171e9983c8697bb9fa",
+      "bytes": 741,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 2,
+        "eye": 4,
+        "mouth": 2,
+        "halo": 1,
+        "crown": 1,
+        "glitch": 0,
+        "lattice": 3
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 221,
+      "file": "qg-221.svg",
+      "sourceHeight": 200220,
+      "sourceHash": "9de57adaef8e39e841d8ce641693075b56b5a380d0fdba1742ff8b07e0c0df9e",
+      "contentSha256": "e332c9e4f3222d58ece5c4dae7a2af0750d52b7fda4d7e5e570d26f3b754a75c",
+      "bytes": 761,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 2,
+        "eye": 3,
+        "mouth": 0,
+        "halo": 2,
+        "crown": 2,
+        "glitch": 1,
+        "lattice": 3
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 222,
+      "file": "qg-222.svg",
+      "sourceHeight": 200221,
+      "sourceHash": "6ae18aae35b8a81b6f90dc36654c9b9e36c8867988f02a8c990d1914358babda",
+      "contentSha256": "d2d38031923993b00558047acd4210d57b36ee16bee63ca109cf830a4d7f2154",
+      "bytes": 731,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 2,
+        "eye": 1,
+        "mouth": 1,
+        "halo": 1,
+        "crown": 0,
+        "glitch": 2,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 223,
+      "file": "qg-223.svg",
+      "sourceHeight": 200222,
+      "sourceHash": "1d9dd140015f6e76428a2c10164d57247182122b7cfef2778a279bb59aea41c8",
+      "contentSha256": "b901badbc61289406992dd80ccdf7f596d98599d13a99644236e64a1248eda80",
+      "bytes": 685,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 4,
+        "eye": 5,
+        "mouth": 5,
+        "halo": 0,
+        "crown": 5,
+        "glitch": 3,
+        "lattice": 0
+      },
+      "raritySignal": 17
+    },
+    {
+      "edition": 224,
+      "file": "qg-224.svg",
+      "sourceHeight": 200223,
+      "sourceHash": "ddba0bd2fc4892c510cf16adcb805bb1b48ea2032be0ad9707647d159f62d2f9",
+      "contentSha256": "0527771ada2ba7a9312c1d978df6c3a7243dc866375bd92313d25a9218afde91",
+      "bytes": 788,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 1,
+        "eye": 0,
+        "mouth": 2,
+        "halo": 3,
+        "crown": 4,
+        "glitch": 0,
+        "lattice": 2
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 225,
+      "file": "qg-225.svg",
+      "sourceHeight": 200224,
+      "sourceHash": "9bf10b29e4ac44af72241c9f6f841594b9e742271563316209580428c8211fe1",
+      "contentSha256": "ff87c8f7088323224159a480e4ba8ab667c4b75c6644136ba994bd95a4c56b43",
+      "bytes": 729,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 4,
+        "eye": 3,
+        "mouth": 3,
+        "halo": 1,
+        "crown": 1,
+        "glitch": 1,
+        "lattice": 1
+      },
+      "raritySignal": 19
+    },
+    {
+      "edition": 226,
+      "file": "qg-226.svg",
+      "sourceHeight": 200225,
+      "sourceHash": "cc1bc1af926d8e68bf318b7baaf0bbb85bdf24eba0c840f2aa95a5ba625ee0a5",
+      "contentSha256": "f8cf14666e34f0d821d4130c4952507ca137931c52f0382b48f36eeca68be2aa",
+      "bytes": 717,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 2,
+        "eye": 5,
+        "mouth": 0,
+        "halo": 0,
+        "crown": 0,
+        "glitch": 2,
+        "lattice": 3
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 227,
+      "file": "qg-227.svg",
+      "sourceHeight": 200226,
+      "sourceHash": "19aa8b114f6d6b0621564e60d3e60907c6ec83b2a3ccf85b874fa7b244150e85",
+      "contentSha256": "228438c58b193da6d8a08c2118feaab38dc837efd954cb7cb2b4f3b025d4276a",
+      "bytes": 750,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 1,
+        "eye": 0,
+        "mouth": 2,
+        "halo": 3,
+        "crown": 0,
+        "glitch": 2,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 228,
+      "file": "qg-228.svg",
+      "sourceHeight": 200227,
+      "sourceHash": "ce8d180d766a33af165456d6dac718d1969bcdb06231adf354e30a0ce72b6d11",
+      "contentSha256": "40bf0f83103f349ec0c4beb42bb5a74c22dbd23997dc92099ddcdc40fa89af48",
+      "bytes": 685,
+      "traits": {
+        "palette": "VIRIDIAN",
+        "shape": 5,
+        "eye": 4,
+        "mouth": 4,
+        "halo": 1,
+        "crown": 5,
+        "glitch": 0,
+        "lattice": 1
+      },
+      "raritySignal": 17
+    },
+    {
+      "edition": 229,
+      "file": "qg-229.svg",
+      "sourceHeight": 200228,
+      "sourceHash": "4515ab1a01e23b1e680159ce0b903329d294531b2cedb4687138ab5d079ef4a5",
+      "contentSha256": "50c5fae0a7c3c6eb0fcf1393af8e2f4606a35b7bd5f9a34c7544f12fc758d703",
+      "bytes": 763,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 1,
+        "eye": 4,
+        "mouth": 2,
+        "halo": 1,
+        "crown": 4,
+        "glitch": 2,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 230,
+      "file": "qg-230.svg",
+      "sourceHeight": 200229,
+      "sourceHash": "fbcd0c1b275088dee35dca78073ab7265a0d8548c9a937465bc379d5f7a37584",
+      "contentSha256": "c48c7e30a3520ddaf839f917184e8f17d350999af3e8cd2e073a1a684861d715",
+      "bytes": 776,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 1,
+        "eye": 0,
+        "mouth": 4,
+        "halo": 3,
+        "crown": 3,
+        "glitch": 1,
+        "lattice": 2
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 231,
+      "file": "qg-231.svg",
+      "sourceHeight": 200230,
+      "sourceHash": "d561737202ce0c2b5808dedab964b161598d1f6ddc974d5c866551c65ea25a4f",
+      "contentSha256": "3ea752fd2a61d576d8b476d2ccc826310f4ae43efc9358f725e2c4553e193570",
+      "bytes": 715,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 1,
+        "eye": 3,
+        "mouth": 5,
+        "halo": 2,
+        "crown": 4,
+        "glitch": 0,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 232,
+      "file": "qg-232.svg",
+      "sourceHeight": 200231,
+      "sourceHash": "c0fde752cc94537ccdf5cec623b7da3a4a209aaf1bfb331c6ae0905410d73104",
+      "contentSha256": "ae7c111442cd58074c650e4d36b4c44c83e391d4f6c750ccaa89a6c81fdfb53e",
+      "bytes": 696,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 4,
+        "eye": 5,
+        "mouth": 5,
+        "halo": 0,
+        "crown": 2,
+        "glitch": 4,
+        "lattice": 1
+      },
+      "raritySignal": 12
+    },
+    {
+      "edition": 233,
+      "file": "qg-233.svg",
+      "sourceHeight": 200232,
+      "sourceHash": "eb42d94bd139e4023037c1dc46657fc9a7fa8efd72f79f257c04768811e32630",
+      "contentSha256": "983c08eb4af2361c7ff5cb9fb6619130c8506113d530a153bc7f2916ea7d25e1",
+      "bytes": 781,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 4,
+        "eye": 4,
+        "mouth": 0,
+        "halo": 3,
+        "crown": 0,
+        "glitch": 4,
+        "lattice": 3
+      },
+      "raritySignal": 12
+    },
+    {
+      "edition": 234,
+      "file": "qg-234.svg",
+      "sourceHeight": 200233,
+      "sourceHash": "e1acd9b441a4181a74c4d96ee96f42aa595112139ba08454f56b0ce1d33dbd83",
+      "contentSha256": "d0312b4f93457b7e99e940eb4e3cab52a838041359f580f7f9e6277fca30fb71",
+      "bytes": 926,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 2,
+        "eye": 2,
+        "mouth": 3,
+        "halo": 3,
+        "crown": 2,
+        "glitch": 4,
+        "lattice": 3
+      },
+      "raritySignal": 12
+    },
+    {
+      "edition": 235,
+      "file": "qg-235.svg",
+      "sourceHeight": 200234,
+      "sourceHash": "02c91550b87ac38e6f69c0df21117f90776f4911bcfaaff3dabfc4e6a7b050c8",
+      "contentSha256": "6cb9edf522432d8d089cc12f3cb2c9f5d9bac545b52147994fce5bb47104add2",
+      "bytes": 846,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 3,
+        "eye": 1,
+        "mouth": 5,
+        "halo": 3,
+        "crown": 3,
+        "glitch": 2,
+        "lattice": 3
+      },
+      "raritySignal": 25
+    },
+    {
+      "edition": 236,
+      "file": "qg-236.svg",
+      "sourceHeight": 200235,
+      "sourceHash": "2bde04208e9238617a3024527272517fb5e49cff94f7cd679f3990bb1b3fa8f5",
+      "contentSha256": "f2545e6182fb4bb75e066f987ac4631c13972c9d593446093e681df870b24c6a",
+      "bytes": 683,
+      "traits": {
+        "palette": "GHOST",
+        "shape": 1,
+        "eye": 0,
+        "mouth": 0,
+        "halo": 1,
+        "crown": 3,
+        "glitch": 0,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 237,
+      "file": "qg-237.svg",
+      "sourceHeight": 200236,
+      "sourceHash": "6ca7f9292dafc9657f3f211d2a613ed373fd2c711ce99b9b70511a4d57a103ad",
+      "contentSha256": "99f8665e4f0d584da72c3b52c6ee094447b040016be47826fd9eb8ad6e9c0f37",
+      "bytes": 780,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 2,
+        "eye": 1,
+        "mouth": 5,
+        "halo": 3,
+        "crown": 1,
+        "glitch": 0,
+        "lattice": 2
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 238,
+      "file": "qg-238.svg",
+      "sourceHeight": 200237,
+      "sourceHash": "86241aa00204acfecde1a62084c8ce8d27f5907bb94901c166fd1b56ecca38f8",
+      "contentSha256": "6e8deb4fe5e043ae0b2a7c6d53ff31acb0ecb864b04a6cbf1281fe9979c82463",
+      "bytes": 755,
+      "traits": {
+        "palette": "GHOST",
+        "shape": 3,
+        "eye": 0,
+        "mouth": 3,
+        "halo": 0,
+        "crown": 5,
+        "glitch": 2,
+        "lattice": 2
+      },
+      "raritySignal": 17
+    },
+    {
+      "edition": 239,
+      "file": "qg-239.svg",
+      "sourceHeight": 200238,
+      "sourceHash": "4e005d6236e9ec941710a6593723b32d7faf71da4d729e448a7443781192adc5",
+      "contentSha256": "9ae21e5d56248f6aac130141459390439f8f156517cb6e1c18d1228e669799e6",
+      "bytes": 815,
+      "traits": {
+        "palette": "VIRIDIAN",
+        "shape": 1,
+        "eye": 0,
+        "mouth": 1,
+        "halo": 1,
+        "crown": 5,
+        "glitch": 3,
+        "lattice": 2
+      },
+      "raritySignal": 17
+    },
+    {
+      "edition": 240,
+      "file": "qg-240.svg",
+      "sourceHeight": 200239,
+      "sourceHash": "57f74e5b918532e0986b5aa721c9114f919266a8468b5b8f0504346481074c61",
+      "contentSha256": "ee93e16f03fd5fc5fd6d01edbe5c9df94800e8c838d1071ae716ac14b6a36ad2",
+      "bytes": 764,
+      "traits": {
+        "palette": "GHOST",
+        "shape": 1,
+        "eye": 1,
+        "mouth": 3,
+        "halo": 0,
+        "crown": 5,
+        "glitch": 2,
+        "lattice": 2
+      },
+      "raritySignal": 31
+    },
+    {
+      "edition": 241,
+      "file": "qg-241.svg",
+      "sourceHeight": 200240,
+      "sourceHash": "dfdebc6c994ef22e5d69bc32422e6b8c150cf9296f3ca9ed92c9497183aab816",
+      "contentSha256": "1a8c3b70f25509c0e568e1ef169aa79cc3621a98760d8f6c5410ab97b7404c2d",
+      "bytes": 672,
+      "traits": {
+        "palette": "GHOST",
+        "shape": 3,
+        "eye": 0,
+        "mouth": 2,
+        "halo": 2,
+        "crown": 4,
+        "glitch": 1,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 242,
+      "file": "qg-242.svg",
+      "sourceHeight": 200241,
+      "sourceHash": "941d59abc5cc51661e5087f86e73e8ade0955c9da9a0094bb84ed3a829f3a1b4",
+      "contentSha256": "47e032ed6628aface1335b1269260156624501e62f4e56e664905de5930cb757",
+      "bytes": 647,
+      "traits": {
+        "palette": "VIRIDIAN",
+        "shape": 0,
+        "eye": 1,
+        "mouth": 5,
+        "halo": 0,
+        "crown": 2,
+        "glitch": 0,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 243,
+      "file": "qg-243.svg",
+      "sourceHeight": 200242,
+      "sourceHash": "c724e9f0558962c47b88634b4c16b668631807fbc8c025cbec4a781d3cc371aa",
+      "contentSha256": "169379cc3f6e93338753eac592388b389ef8deacd4f08473729368d58c6c0a01",
+      "bytes": 788,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 5,
+        "eye": 0,
+        "mouth": 2,
+        "halo": 3,
+        "crown": 2,
+        "glitch": 3,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 244,
+      "file": "qg-244.svg",
+      "sourceHeight": 200243,
+      "sourceHash": "b60a29decb4c4673319b40f5d76b9d836f2f8f9afcdd0e4b829378fff70c50d3",
+      "contentSha256": "ce82e9172f5ba265ace1c04a23e79756392cf77c23c31ff5cd05ed02e102886b",
+      "bytes": 745,
+      "traits": {
+        "palette": "VIRIDIAN",
+        "shape": 0,
+        "eye": 2,
+        "mouth": 0,
+        "halo": 0,
+        "crown": 1,
+        "glitch": 2,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 245,
+      "file": "qg-245.svg",
+      "sourceHeight": 200244,
+      "sourceHash": "c2d21fb5e2332ed7cef8b0d1f8c536f8f6682cfc7f4d1915d9d4893c36f7aa20",
+      "contentSha256": "18e1c9d6384831711deb75e087b2e2d53a9b5ac3a69b86fa86ff9c63f2c16566",
+      "bytes": 804,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 4,
+        "eye": 2,
+        "mouth": 1,
+        "halo": 0,
+        "crown": 2,
+        "glitch": 3,
+        "lattice": 2
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 246,
+      "file": "qg-246.svg",
+      "sourceHeight": 200245,
+      "sourceHash": "b70b89ace59bf4d0616f12d6481c6ca9adbf420888a8acee94d7cfe2c3944af7",
+      "contentSha256": "ae772dd2c7b71b5a0bb2356333376392a17630f634663adff44d7c787007e05f",
+      "bytes": 742,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 1,
+        "eye": 1,
+        "mouth": 2,
+        "halo": 2,
+        "crown": 4,
+        "glitch": 0,
+        "lattice": 2
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 247,
+      "file": "qg-247.svg",
+      "sourceHeight": 200246,
+      "sourceHash": "3998d28119e2efd2ef1dd8418a442b9a6bd0163edfeb94e67e14a0118af1b97c",
+      "contentSha256": "0e6886e914dd0a0f2152934f9334d17d76cf9e5fc37ed72000ddd19f7c1fa862",
+      "bytes": 788,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 4,
+        "eye": 5,
+        "mouth": 2,
+        "halo": 3,
+        "crown": 4,
+        "glitch": 0,
+        "lattice": 3
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 248,
+      "file": "qg-248.svg",
+      "sourceHeight": 200247,
+      "sourceHash": "f88aaeb76a8b03e644db1d17322108227ef45a603010eba772e4eae05736cec5",
+      "contentSha256": "b0c2bebae5f1454ceb4f4348aed2cda705f9c52c4adc5560d1572f94d87ce26f",
+      "bytes": 730,
+      "traits": {
+        "palette": "GHOST",
+        "shape": 3,
+        "eye": 0,
+        "mouth": 4,
+        "halo": 2,
+        "crown": 2,
+        "glitch": 0,
+        "lattice": 3
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 249,
+      "file": "qg-249.svg",
+      "sourceHeight": 200248,
+      "sourceHash": "10d82a373f8d9c543fcbd37ddda8b517f956c8ea1f17832d1fe005751bea2c83",
+      "contentSha256": "b59af8e1565c040244d573045f3b95e996564f8a937d14c08dd983f710c8aa52",
+      "bytes": 766,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 1,
+        "eye": 3,
+        "mouth": 1,
+        "halo": 1,
+        "crown": 0,
+        "glitch": 2,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 250,
+      "file": "qg-250.svg",
+      "sourceHeight": 200249,
+      "sourceHash": "b166729544e179ee4f8b2c43d3afeab8dd16bd86b70dc2d39268f0f49771be82",
+      "contentSha256": "7eb68b2eb7fc92e3d4a80cf87be395705c6351b834bdf1b1b44b37ce06476bd4",
+      "bytes": 687,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 2,
+        "eye": 4,
+        "mouth": 4,
+        "halo": 0,
+        "crown": 4,
+        "glitch": 3,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 251,
+      "file": "qg-251.svg",
+      "sourceHeight": 200250,
+      "sourceHash": "af9f13a9001c67a31f4fd58885768789c1c3b0b973fb485a837d79600a3772b1",
+      "contentSha256": "f764adeacc52501fdb8279f5aab0b3826006e58f97dfd213185eb5e01ea002b4",
+      "bytes": 701,
+      "traits": {
+        "palette": "SIGNAL",
+        "shape": 0,
+        "eye": 0,
+        "mouth": 3,
+        "halo": 0,
+        "crown": 1,
+        "glitch": 4,
+        "lattice": 1
+      },
+      "raritySignal": 12
+    },
+    {
+      "edition": 252,
+      "file": "qg-252.svg",
+      "sourceHeight": 200251,
+      "sourceHash": "5a25741488f86d0927ab55669c204827fbef61c6eebc038b834f8112ba1d2367",
+      "contentSha256": "7b4058ef3b168b66088f441f3e4726cdba8ad391f32b11506ad7d373a1116266",
+      "bytes": 735,
+      "traits": {
+        "palette": "PHANTOM",
+        "shape": 2,
+        "eye": 0,
+        "mouth": 4,
+        "halo": 2,
+        "crown": 4,
+        "glitch": 3,
+        "lattice": 1
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 253,
+      "file": "qg-253.svg",
+      "sourceHeight": 200252,
+      "sourceHash": "6770eba3c224fa9179592fb19798039efce1bdb54e0ce42820f02e963c2c65ce",
+      "contentSha256": "52ae3cc01bcc5aa459009a0a1e88eca270daee74b329e473fbf480ba66e26d70",
+      "bytes": 818,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 2,
+        "eye": 2,
+        "mouth": 5,
+        "halo": 1,
+        "crown": 5,
+        "glitch": 1,
+        "lattice": 2
+      },
+      "raritySignal": 17
+    },
+    {
+      "edition": 254,
+      "file": "qg-254.svg",
+      "sourceHeight": 200253,
+      "sourceHash": "8925ad74924fdb1d937bb14c73c347da8e7762396c28836597baa09d80d1ce53",
+      "contentSha256": "aaf2ba84430dbe2b50d2dfeb500d9391468412889f2e08e626c67df9d1c00cae",
+      "bytes": 874,
+      "traits": {
+        "palette": "OBSIDIAN",
+        "shape": 0,
+        "eye": 5,
+        "mouth": 4,
+        "halo": 3,
+        "crown": 2,
+        "glitch": 3,
+        "lattice": 3
+      },
+      "raritySignal": 5
+    },
+    {
+      "edition": 255,
+      "file": "qg-255.svg",
+      "sourceHeight": 200254,
+      "sourceHash": "14050cee59a2cbb2d6cb6880c02920ce74c525f9c638cfb9839c88988835dd81",
+      "contentSha256": "82895cf98d02610d1138eda656bffc731d151457e896f4ee80d16cb4b74a9062",
+      "bytes": 751,
+      "traits": {
+        "palette": "GHOST",
+        "shape": 5,
+        "eye": 0,
+        "mouth": 4,
+        "halo": 1,
+        "crown": 3,
+        "glitch": 1,
+        "lattice": 2
+      },
+      "raritySignal": 19
+    },
+    {
+      "edition": 256,
+      "file": "qg-256.svg",
+      "sourceHeight": 200255,
+      "sourceHash": "e8804033e992f1d54d35e1bde3d7d717b285be4be4bcc54bc610ba347fcbdf32",
+      "contentSha256": "18d9d1a451179c13776c6af34b5186f89d732251c32ed20f2b28d0d6750ecbfa",
+      "bytes": 785,
+      "traits": {
+        "palette": "EMBER",
+        "shape": 0,
+        "eye": 1,
+        "mouth": 5,
+        "halo": 1,
+        "crown": 2,
+        "glitch": 2,
+        "lattice": 0
+      },
+      "raritySignal": 5
+    }
+  ]
+}

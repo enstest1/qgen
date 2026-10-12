@@ -1,0 +1,9 @@
+node_modules/
+.env
+.env.*.local
+data/*.sqlite*
+.DS_Store
+preview-*.png
+site-preview.png
+
+# Workflow template lives in docs until workflow scope is approved

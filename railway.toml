@@ -1,0 +1,12 @@
+# Deploy from a GitHub-connected service: enstest1/qgen.
+# Preview only: live/paid mint routes remain disabled in source.
+[build]
+builder = "RAILPACK"
+buildCommand = "npm run validate && npm test"
+
+[deploy]
+startCommand = "npm start"
+healthcheckPath = "/api/health"
+healthcheckTimeout = 120
+restartPolicyType = "ON_FAILURE"
+restartPolicyMaxRetries = 3

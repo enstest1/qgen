@@ -1,0 +1,18 @@
+{
+  "name": "qgen",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Quantus block-DNA generative onchain SVG PFP mint studio (safe demo; mainnet guarded)",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning src/server.mjs",
+    "dev": "node --disable-warning=ExperimentalWarning --watch src/server.mjs",
+    "test": "node --disable-warning=ExperimentalWarning --test",
+    "validate": "node --disable-warning=ExperimentalWarning src/validate.mjs",
+    "smoke:preview": "node scripts/smoke-railway-preview.mjs"
+  },
+  "license": "UNLICENSED"
+}

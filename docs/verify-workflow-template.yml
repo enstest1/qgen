@@ -1,0 +1,29 @@
+name: Verify QG1
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    strategy:
+      fail-fast: false
+      matrix:
+        node: ['22', '24']
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: ${{ matrix.node }}
+      - name: Run tests
+        run: npm test
+      - name: Check all SVGs and content hashes
+        run: npm run validate
+      - name: Validate JavaScript syntax
+        run: |
+          for f in src/*.mjs public/*.js tests/*.mjs; do node --check "$f"; done
+      - name: Verify read-only HTTP API smoke
+        run: node scripts/smoke.mjs
